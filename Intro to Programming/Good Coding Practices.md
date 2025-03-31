@@ -140,17 +140,17 @@ Good Coding Practices (by ChatGPT):
 
 Summary Table: Good Coding Practices
 
-    Clean Code	                Improves readability & maintainability
-    Consistent Naming	        Makes code understandable
+    Clean Code                  Improves readability & maintainability
+    Consistent Naming           Makes code understandable
     Small Functions	            Follows the Single Responsibility Principle
     Write Comments	            Helps others (and future you) understand the code
-    Use Version Control	        Tracks changes and prevents code loss
+    Use Version Control         Tracks changes and prevents code loss
     Avoid Repetition (DRY)	    Makes code efficient and reusable
     Handle Errors Properly	    Prevents crashes and improves user experience
     Optimize Performance	    Speeds up execution time
-    Write Tests	                Ensures code reliability
+    Write Tests                 Ensures code reliability
     Modular Code	            Makes maintenance and scaling easier
     Security Best Practices	    Protects user data and system integrity
-    Document Your Code	        Helps future developers understand the project
+    Document Your Code          Helps future developers understand the project
 
 EOF
