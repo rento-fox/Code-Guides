@@ -9,7 +9,8 @@
         Below is how we can create the favFruit variable, using Python code:
 ![alt text](image-1.png)
 
-        The code above creates a variable named favFruit, and the equal sign = is used to store the value 'apple' inside the variable.
+        The code above creates a variable named favFruit,
+        and the equal sign = is used to store the value 'apple' inside the variable.
         The reason for giving a variable a name is to be able to use it later in the code, and also to know what value it holds.
 
     Creating a Variable
@@ -29,7 +30,8 @@
         Variables can hold different types of data, like whole numbers, decimal numbers, or text.
         Note: When creating a variable in programming languages like C/C++ and Java,
         we must tell the computer what type of data the variable holds.
-        To do that we need to write for example int in front of the variable name, if the variable holds a whole number (integer).
+        To do that we need to write for example int in front of the variable name,
+        if the variable holds a whole number (integer).
 
     Doing Things with Variables
         Like we have just seen in the previous example, a value can be stored in a variable.
@@ -150,7 +152,8 @@
                 cout << a; // Output: 3
         
         Incrementing a variable is a common operation in programming, and it's often used in loops.
-        It is so common in fact, that many programming languages have a shorthand for it, like ++ in C/C++ and Java, or += in Python.
+        It is so common in fact, that many programming languages have a shorthand for it,
+        like ++ in C/C++ and Java, or += in Python.
 
     Decrementing a Variable
         If we want to decrement a variable, we can do that in a similar way as incrementing.
