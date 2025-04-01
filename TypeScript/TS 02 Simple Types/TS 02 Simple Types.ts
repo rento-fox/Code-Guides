@@ -58,5 +58,4 @@
     //      boolean !== Boolean
     // For this tutorial just know to use the lower-cased values, the upper-case ones are for very specific circumstances.
 
-
 // EOF
