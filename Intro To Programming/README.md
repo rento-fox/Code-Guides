@@ -1,4 +1,4 @@
-How to Run Files:
+How To Run Files:
 
     In the VS Code terminal, navigate to the directory where your files are located.
     Then run the correct command for each file:
@@ -20,7 +20,7 @@ How to Run Files:
 
 <br/>
 
-How to Find All Intances of Highlighted Text In Visual Studio Code:
+How To Find All Instances Of Highlighted Text In Visual Studio Code:
 
     Ctrl + Shift + L
 
