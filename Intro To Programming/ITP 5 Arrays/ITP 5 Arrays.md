@@ -63,7 +63,8 @@
             loop 	    Visits each value in the array, using a loop.
 
     Reading an Array Value
-        To read an array value, we use the array name with the index of the value we want to read in brackets, like this myFruits[0].
+        To read an array value, we use the array name with the index
+        of the value we want to read in brackets, like this myFruits[0].
         We must also use a command to write myFruits[0] to the console/terminal,
         so that we can actually see the result, and that is done a little different depending on the programming language.
             Python:
@@ -195,7 +196,8 @@
     Looping Through an Array
         Looping through an array means to look at every value in the array.
         There is more than one way to loop through an array,
-        but using a for loop is perhaps the most straight forward way that is also supported in all programming languages, like this:
+        but using a for loop is perhaps the most straight forward way
+        that is also supported in all programming languages, like this:
             Python:
                 myFruits = ['banana', 'apple', 'orange']
                 for fruit in myFruits:
@@ -290,7 +292,8 @@
 
     Strict Definition of an Array
         Arrays found in modern languages like Python or JavaScript are flexible, meaning arrays can grow, shrink,
-        and hold different types of values. Other programming languages, like C and Java, require arrays to be defined more strictly.
+        and hold different types of values. Other programming languages,
+        like C and Java, require arrays to be defined more strictly.
         A more strict definition of an array means that in addition to being a collection of values, an array is also:
             fixed length
             same data type for all values
@@ -299,12 +302,14 @@
         Fixed length means that the array length (the number of values inside the array), cannot be changed.
         When using the C programming language for example, if you have created an array of 4 values,
         the array length (4) is fixed and cannot be changed. So if you want to insert a 5th value at the end of your array,
-        you must create a new array 5 values long, put in the original 4 values, and put the 5th value in the last place in new array where there is now place for it.
+        you must create a new array 5 values long, put in the original 4 values,
+        and put the 5th value in the last place in new array where there is now place for it.
 
         Same datatype means that all values in the array must be of the same type,
         so they must all be whole numbers for example, or decimal numbers, or characters, or strings, or some other data type.
         
-        Having the array stored contiguously in memory means that the values are stored right after each other in one block of memory,
+        Having the array stored contiguously in memory means
+        that the values are stored right after each other in one block of memory,
         like a group of friends living right next to each other on the same street.
 
         Using arrays in their strict form gives the user full control over how the program actually executes,
