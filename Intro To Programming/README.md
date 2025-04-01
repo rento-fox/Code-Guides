@@ -24,4 +24,8 @@ How To Find All Instances Of Highlighted Text In Visual Studio Code:
 
     Ctrl + Shift + L
 
+<br/>
+
+Last Updated: 01.04.2025
+
 EOF
