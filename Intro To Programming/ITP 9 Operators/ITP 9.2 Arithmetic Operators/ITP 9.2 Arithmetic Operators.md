@@ -26,6 +26,7 @@
         which means that 2 ** 3 is the same as 2 * 2 * 2, which equals 8.
         Writing 2 ** 3 mathematically looks like this: 2^3 = 8.
 
-        Note: The exponentiation operator ** is not supported in Java and C++, so the functions Math.pow(2, 3) and pow(2, 3) are used instead.
+        Note: The exponentiation operator ** is not supported in Java and C++,
+        so the functions Math.pow(2, 3) and pow(2, 3) are used instead.
 
 EOF
