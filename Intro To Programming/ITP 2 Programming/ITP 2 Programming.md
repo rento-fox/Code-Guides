@@ -12,7 +12,8 @@
             Loops
             Functions
         It is recommended to learn these concepts in the order above.
-        To fully understand these concepts, you also need to have a basic understanding of data types, boolean logic, and operators.
+        To fully understand these concepts, you also need to have a basic understanding
+        of data types, boolean logic, and operators.
         After you have learned these core concepts, you can move on to more advanced concepts.
 
     Programming Languages
