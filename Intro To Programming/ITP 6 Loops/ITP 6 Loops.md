@@ -12,7 +12,8 @@
             print('You got 6!')
             print('You rolled', count, 'times')
 
-        The loop continues to roll the dice until the result is 6, so the condition that ensures we roll the dice again is "dice is not 6".
+        The loop continues to roll the dice until the result is 6,
+        so the condition that ensures we roll the dice again is "dice is not 6".
         Below is a flow chart explaining how the loop runs:
 ![alt text](image.png)
 
@@ -29,7 +30,8 @@
             As long as the pot is dirty, continue washing it.
             Keep filling the tank of the car until it is full.
 
-        As we saw in the example above, we cannot know how many times the code should run, because we don't know when the user will roll a 6, and that is why we use a while loop.
+        As we saw in the example above, we cannot know how many times the code should run,
+        because we don't know when the user will roll a 6, and that is why we use a while loop.
         Below is the complete code for the dice rolling, written in different programming languages.
             Python:
                 dice = random.randint(1,6)
@@ -149,12 +151,12 @@
 
         Another way to iterate through an array is to use a for loop with a counting variable for the indexes, like this:
             Python:
-                myFruits = ['banana','apple','orange']
+                myFruits = ['banana', 'apple', 'orange']
                 for i in range(len(myFruits)):
                     print(myFruits[i])
 
             JavaScript:
-                const myFruits = ['banana','apple','orange'];
+                const myFruits = ['banana', 'apple', 'orange'];
                 for (let i = 0; i < myFruits.length; i++) {
                     console.log(myFruits[i]);
                 }
@@ -173,7 +175,8 @@
                 }
 
     The Do-While Loop
-        A do-while loop is just like a regular while loop, but the code inside the loop runs first, and the condition is checked after.
+        A do-while loop is just like a regular while loop,
+        but the code inside the loop runs first, and the condition is checked after.
         This means a do-while loop is useful when you want to make sure the code inside the loop runs at least once.
         We can take the first code example on this page that demonstrates how a regular while loop works
         (rolling dice untill you get a 6), and simplify it using a do-while loop, like this:
@@ -227,7 +230,8 @@
 
     Nested Loops
         A nested loop is a loop inside another loop.
-        This is how we can use a nested loop (while loop inside a for loop) to calculate the average number of rolls it takes to get a 6:
+        This is how we can use a nested loop (while loop inside a for loop)
+        to calculate the average number of rolls it takes to get a 6:
             Python:
                 numExperiments = 1000
                 totalRolls = 0
@@ -295,6 +299,7 @@
                 double average = static_cast(totalRolls) / numExperiments;
                 cout << "Average rolls to get 6: " + to_string(average) + "\n";
         
-        Notice how the break statement is used to break out of the inner loop when a 6 is rolled, but the outer loop continues to run.
+        Notice how the break statement is used to break out of the inner loop
+        when a 6 is rolled, but the outer loop continues to run.
 
 EOF
