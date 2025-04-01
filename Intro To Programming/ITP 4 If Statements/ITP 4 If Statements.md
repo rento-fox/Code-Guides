@@ -4,7 +4,7 @@
     What is an If Statement?
         An if statement runs a block of code if the condition is true.
         We do similar things in real life, like using an umbrella if it's raining, or wearing a coat if it's cold.
-        
+
         See how an if statement works in the simple game below. The goal is to get 6 when you roll the dice.
             dice = random.randint(1,6)
             print('You rolled a ' + str(dice))
@@ -13,7 +13,8 @@
             else:
                 print('Try again') // Code runs if condition is false
 
-        To make the game do something different depending on the dice result, we use if with a condition that checks if the dice result is 6.
+        To make the game do something different depending on the dice result,
+        we use if with a condition that checks if the dice result is 6.
         In case the condition is true, we print "You got 6!". And in case the condition is not true, we print "Try again".
         We must use else in the code above, to handle the case when the dice is not 6, so that we can write "Try again".
 
@@ -174,7 +175,8 @@
                     cout << "You are an adult";
                 }
 
-        In the code above, the nested if statement allows us to filter out the special case of ages 18 and 19, when you are both a teenager and an adult.
+        In the code above, the nested if statement allows us to filter out
+        the special case of ages 18 and 19, when you are both a teenager and an adult.
         In the flowchart below, we can see that the code block for age > 17 is only executed if the age is 18 or 19.
 ![alt text](image-1.png)
 
