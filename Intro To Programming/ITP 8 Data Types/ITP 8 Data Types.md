@@ -135,7 +135,8 @@
             C++:
                 double pi = 3.14;
 
-        The same kind of mathematical operations can be performed with floats as with the integer data type, using operators like -, *, /, +, etc.
+        The same kind of mathematical operations can be performed
+        with floats as with the integer data type, using operators like -, *, /, +, etc.
 
     Boolean Data Type
         A boolean is a data type that can only have two values: True or False.
@@ -201,22 +202,22 @@
         This is how a variable can be assigned None, or null:
             Python:
                 a = None
-                print(a)        // Output: None
-                print(type(a))  // Output: <class 'NoneType'>
+                print(a)        None
+                print(type(a))  <class 'NoneType'>
 
             JavaScript:
                 const a = null;
-                console.log(a);         // Output: null
-                console.log(typeof a);  // Output: object
+                console.log(a);         // null
+                console.log(typeof a);  // object
 
             Java:
                 String s = null;
-                System.out.println(s); // Output: null
+                System.out.println(s); // null
 
             C++:
                 int* ptr = nullptr;
                 if (ptr == nullptr) {
-                    cout << "ptr is nullptr (null)"; // Output: ptr is nullptr (null)
+                    cout << "ptr is nullptr (null)"; // ptr is nullptr (null)
                 }
 
         In Java, the null keyword can only be assigned to non-primitive data type variables, like strings or arrays.
