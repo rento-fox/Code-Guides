@@ -20,7 +20,7 @@ How to Run Files:
 
 <br/>
 
-How to Find All Intances of Highlighted Text:
+How to Find All Intances of Highlighted Text In Visual Studio Code:
 
     Ctrl + Shift + L
 
