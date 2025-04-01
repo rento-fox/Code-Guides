@@ -34,4 +34,8 @@
         If TypeScript is not installed globally, you'll get an error, and you'll need to install it first using:
             npm install -g typescript
 
+<br/>
+
+Last Updated: 01.04.2025
+
 EOF
