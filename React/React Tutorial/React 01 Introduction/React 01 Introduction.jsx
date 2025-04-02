@@ -51,7 +51,8 @@
         // Best for: Single Page Applications (SPAs) where you handle your own build tools
         // Pros:
         //     Flexible client-side routing
-        //     No opinionated build system (use with Vite, Webpack, etc.) Recommended if you just need routing and don’t want a full framework
+        //     No opinionated build system (use with Vite, Webpack, etc.)
+        //     Recommended if you just need routing and don’t want a full framework
         // Use with Vite:
             // npm create vite@latest my-app --template react
             // cd my-app
