@@ -19,7 +19,7 @@
     // You should also have some experience with the new JavaScript features introduced in ECMAScript 6 (ES6),
     // you will learn about them in the React ES6 chapter.
 
-// React Development Tools and Frameworks
+// React Development Tools and Frameworks:
     // 1. Vite (Best for Speed & Simplicity)
         // Best for: Small to medium projects, SPAs, and general React apps
         // Pros:
