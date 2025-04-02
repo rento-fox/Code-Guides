@@ -86,6 +86,7 @@ Coding Languages And Their Shortened Names And File Extensions:
     Python          Py              .py
     JavaScript      JS              .js
     TypeScript      TS              .ts
+    React           React           .jsx, .tsx
     Java            Java            .java
     C               C               .c
     C++             C++             .cpp, .cc, .cxx
