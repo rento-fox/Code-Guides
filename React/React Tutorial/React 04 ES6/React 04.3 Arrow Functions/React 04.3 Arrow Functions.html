@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>Function</h1>
+<p>This demonstrates a regular function, NOT an arrow function.</p>
+<p id="demo"></p>
+
+<h1>Arrow Function</h1>
+<p>A demonstration of a simple arrow function.</p>
+<p id="demo2"></p>
+
+<h1>Arrow Function, Implicit Return</h1>
+<p>The arrow function expects a return value, and returns the value by default, without the <strong>return</strong> keyword.</p>
+<p id="demo3"></p>
+
+<h1>Arrow Function, Parameters</h1>
+<p>A demonstration of an arrow function in one line, with parameters.</p>
+<p id="demo4"></p>
+
+<h1>Arrow Function, Skip Parentheses</h1>
+<p>As you can see in this example, you can skip the parentheses when you have only one parameter.</p>
+<p id="demo5"></p>
+
+<h1>Regular Function</h1>
+<p>The <strong>this</strong> keyword represents different objects depending on how the function was called.</p>
+<button id="btn6">Click Me!</button>
+<p><strong>this</strong> represents:</p>
+<p id="demo6"></p>
+<p>See the difference before and after the button is clicked.</p>
+
+<h1>Arrow Function</h1>
+<p>The <strong>this</strong> keyword represents the Header object.</p>
+<button id="btn7">Click Me!</button>
+<p><strong>this</strong> represents:</p>
+<p id="demo7"></p>
+
+<script>
+// React ES6 Arrow Functions
+	// Arrow functions allow us to write shorter function syntax:
+	// Before:
+		hello = function() {
+			return "Hello World!";
+		}
+		document.getElementById("demo").innerHTML = hello();
+
+	// With Arrow Function:
+		hello2 = () => {
+			return "Hello Arrow!";
+		}
+		document.getElementById("demo2").innerHTML = hello2();
+
+	// It gets shorter! If the function has only one statement,
+	// and the statement returns a value, you can remove the brackets and the return keyword:
+		hello3 = () => "Hello Implicit!";
+		document.getElementById("demo3").innerHTML = hello3();
+
+	// Note: This works only if the function has only one statement.
+
+	// If you have parameters, you pass them inside the parentheses:
+	// Arrow Function With Parameters:
+		hello4 = (val) => "Hello " + val;
+		document.getElementById("demo4").innerHTML = hello4("Parameters");
+
+	// In fact, if you have only one parameter, you can skip the parentheses as well:
+		hello5 = val => "Hello " + val;
+		document.getElementById("demo5").innerHTML = hello5("Skip Parentheses");
+
+// What About this?
+	// The handling of this is also different in arrow functions compared to regular functions.
+	// In short, with arrow functions there is no binding of this.
+	// In regular functions the this keyword represented the object that called the function,
+	// which could be the window, the document, a button or whatever.
+	// With arrow functions, the this keyword always represents the object that defined the arrow function.
+
+	// Let us take a look at two examples to understand the difference.
+	// Both examples call a method twice, first when the page loads, and once again when the user clicks a button.
+	// The first example uses a regular function, and the second example uses an arrow function.
+	// The result shows that the first example returns two different objects (window and button),
+	// and the second example returns the Header object twice.
+
+	// With a regular function, this represents the object that called the function:
+		class Header6 {
+			constructor() {
+				this.color = "Red";
+			}
+			changeColor = function() {
+				document.getElementById("demo6").innerHTML += this;
+			}
+		}
+		const myheader6 = new Header6();
+		//The window object calls the function:
+		window.addEventListener("load", myheader6.changeColor);
+		//A button object calls the function:
+		document.getElementById("btn6").addEventListener("click", myheader6.changeColor);
+
+	// With an arrow function, this represents the Header object no matter who called the function:
+		class Header7 {
+			constructor() {
+				this.color = "Red";
+			}
+
+			changeColor = () => {
+				document.getElementById("demo7").innerHTML += this;
+			}
+		}
+		const myheader7 = new Header7();
+		//The window object calls the function:
+		window.addEventListener("load", myheader7.changeColor);
+		//A button object calls the function:
+		document.getElementById("btn7").addEventListener("click", myheader7.changeColor);
+
+	// Remember these differences when you are working with functions.
+	// Sometimes the behavior of regular functions is what you want, if not, use arrow functions.
+</script>
+
+</body>
+</html>
+
+<!-- EOF -->
