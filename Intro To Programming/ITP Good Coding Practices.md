@@ -138,7 +138,7 @@ Good Coding Practices (by ChatGPT):
 
 <br/>
 
-Summary Table: Good Coding Practices
+Summary Of Good Coding Practices:
 
     Clean Code                  Improves readability & maintainability
     Consistent Naming           Makes code understandable
