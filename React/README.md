@@ -184,14 +184,14 @@ Summary:
 
     -Framework-	-Best For-
     Vanilla     Simple projects, prototyping
-    Vue	        Easy-to-learn, reactivity-focused apps
-    React	    Large ecosystem, component-based UIs
-    Preact	    Lightweight React alternative
-    Lit	        Web Components, fast rendering
-    Svelte	    Best performance, no Virtual DOM
-    Solid	    Faster than React, best reactivity
-    Qwik	    Ultra-fast performance & SEO
-    Angular	    Enterprise apps, TypeScript
+    Vue         Easy-to-learn, reactivity-focused apps
+    React       Large ecosystem, component-based UIs
+    Preact      Lightweight React alternative
+    Lit         Web Components, fast rendering
+    Svelte      Best performance, no Virtual DOM
+    Solid       Faster than React, best reactivity
+    Qwik        Ultra-fast performance & SEO
+    Angular     Enterprise apps, TypeScript
 
     For beginners: Choose React or Vue.
     For performance: Choose Svelte, Solid, or Qwik.
@@ -199,11 +199,11 @@ Summary:
     For lightweight projects: Choose Preact or Lit.
 
     -Variant-           -Best For-
-    TypeScript	        Large projects, type safety, maintainability
-    TypeScript + SWC	Large TypeScript apps with faster builds
-    JavaScript	        Simple projects, quick prototyping
-    JavaScript + SWC	Large JS apps with faster builds
-    React Router v7	    Apps that need client-side navigation
+    TypeScript          Large projects, type safety, maintainability
+    TypeScript + SWC    Large TypeScript apps with faster builds
+    JavaScript          Simple projects, quick prototyping
+    JavaScript + SWC    Large JS apps with faster builds
+    React Router v7     Apps that need client-side navigation
 
     For beginners: JavaScript (simpler, no setup needed).
     For best performance: TypeScript + SWC (faster builds).
