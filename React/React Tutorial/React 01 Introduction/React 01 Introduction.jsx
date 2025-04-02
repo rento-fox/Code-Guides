@@ -85,6 +85,7 @@
     //     For SPAs & routing → React Router (with Vite)
     //     For React Native or mobile-first apps → Expo
     //     For a simple, zero-config bundler → Parcel
+
     // Best all-around option? Vite or Next.js, depending on your needs!
 
 // React.JS History
