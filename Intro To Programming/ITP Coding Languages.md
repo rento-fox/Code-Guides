@@ -82,35 +82,35 @@ Coding Languages and Their Most Common Use Cases (by ChatGPT):
 
 Coding Languages And Their Shortened Names And File Extensions:
 
-    -Language-      -Shortened Name-    -File Extension-
-    Python          Py                  .py
-    JavaScript	    JS	                .js
-    TypeScript	    TS	                .ts
-    Java	        Java	            .java
-    C	            C	                .c
-    C++	            C++	                .cpp, .cc, .cxx
-    C#	            C#	                .cs
-    PHP	            PHP	                .php
-    Ruby	        RB	                .rb
-    Swift	        Swift	            .swift
-    Kotlin	        KT	                .kt, .kts
-    Go	            Go	                .go
-    Rust	        RS	                .rs
-    HTML	        HTML	            .html, .htm
-    CSS	            CSS	                .css
-    SCSS	        SCSS	            .scss
-    SASS	        SASS	            .sass
-    SQL	            SQL	                .sql
-    Markdown        MD                  .md or .markdown
-    R	            R	                .r
-    Shell Script    SH	                .sh
-    Lua	            Lua	                .lua
-    Perl	        PL	                .pl
-    Dart	        Dart	            .dart
-    Scala	        Scala	            .scala
-    Haskell	        HS	                .hs
-    MATLAB	        M	                .m
-    Objective-C	    Obj-C	            .m, .mm
-    Assembly	    ASM	                .asm, .s
+    -Language-      -Short Name-    -File Extension-
+    Python          Py              .py
+    JavaScript      JS              .js
+    TypeScript      TS              .ts
+    Java            Java            .java
+    C               C               .c
+    C++             C++             .cpp, .cc, .cxx
+    C#              C#              .cs
+    PHP             PHP             .php
+    Ruby            RB              .rb
+    Swift           Swift           .swift
+    Kotlin          KT              .kt, .kts
+    Go              Go              .go
+    Rust            RS              .rs
+    HTML            HTML            .html, .htm
+    CSS             CSS             .css
+    SCSS            SCSS            .scss
+    SASS            SASS            .sass
+    SQL             SQL             .sql
+    Markdown        MD              .md, .markdown
+    R               R               .r
+    Shell Script    SH              .sh
+    Lua             Lua             .lua
+    Perl            PL              .pl
+    Dart            Dart            .dart
+    Scala           Scala           .scala
+    Haskell         HS              .hs
+    MATLAB          M               .m
+    Objective-C     Obj-C           .m, .mm
+    Assembly        ASM             .asm, .s
 
 EOF
