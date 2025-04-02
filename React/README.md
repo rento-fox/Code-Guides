@@ -182,16 +182,16 @@ Variants Explained (by ChatGPT):
 
 Summary:
 
-    -Framework-	-Best For-
-    Vanilla     Simple projects, prototyping
-    Vue         Easy-to-learn, reactivity-focused apps
-    React       Large ecosystem, component-based UIs
-    Preact      Lightweight React alternative
-    Lit         Web Components, fast rendering
-    Svelte      Best performance, no Virtual DOM
-    Solid       Faster than React, best reactivity
-    Qwik        Ultra-fast performance & SEO
-    Angular     Enterprise apps, TypeScript
+    -Framework-     -Best For-
+    Vanilla         Simple projects, prototyping
+    Vue             Easy-to-learn, reactivity-focused apps
+    React           Large ecosystem, component-based UIs
+    Preact          Lightweight React alternative
+    Lit             Web Components, fast rendering
+    Svelte          Best performance, no Virtual DOM
+    Solid           Faster than React, best reactivity
+    Qwik            Ultra-fast performance & SEO
+    Angular         Enterprise apps, TypeScript
 
     For beginners: Choose React or Vue.
     For performance: Choose Svelte, Solid, or Qwik.
