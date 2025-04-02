@@ -83,7 +83,7 @@ Coding Languages and Their Most Common Use Cases (by ChatGPT):
 Coding Languages And Their Shortened Names And File Extensions:
 
     -Language-      -Shortened Name-    -File Extension-
-    Python	        Py	                .py
+    Python          Py                  .py
     JavaScript	    JS	                .js
     TypeScript	    TS	                .ts
     Java	        Java	            .java
