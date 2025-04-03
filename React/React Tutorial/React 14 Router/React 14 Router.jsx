@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-
-<script type="text/babel">
 // React Router
     // To add React Router in your application,
     // run this in the terminal from the root directory of the application:
@@ -38,27 +25,27 @@
     // Now we will use our Router in our main.jsx file.
     // Use React Router to route to pages based on URL:
     // main.jsx:
-        import ReactDOM from "react-dom/client";
-        import { BrowserRouter, Routes, Route } from "react-router-dom";
-        import Layout from "./pages/Layout";
-        import Home from "./pages/Home";
-        import Blogs from "./pages/Blogs";
-        import Contact from "./pages/Contact";
-        import NoPage from "./pages/NoPage";
-        export default function App() {
-            return (
-                <BrowserRouter>
-                    <Routes>
-                        <Route path="/" element={<Layout />}>
-                        <Route index element={<Home />} />
-                        <Route path="blogs" element={<Blogs />} />
-                        <Route path="contact" element={<Contact />} />
-                        <Route path="*" element={<NoPage />} />
-                        </Route>
-                    </Routes>
-                </BrowserRouter>
-            );
-        }
+        // import ReactDOM from "react-dom/client";
+        // import { BrowserRouter, Routes, Route } from "react-router-dom";
+        // import Layout from "./pages/Layout";
+        // import Home from "./pages/Home";
+        // import Blogs from "./pages/Blogs";
+        // import Contact from "./pages/Contact";
+        // import NoPage from "./pages/NoPage";
+        // export default function App() {
+        //     return (
+        //         <BrowserRouter>
+        //             <Routes>
+        //                 <Route path="/" element={<Layout />}>
+        //                 <Route index element={<Home />} />
+        //                 <Route path="blogs" element={<Blogs />} />
+        //                 <Route path="contact" element={<Contact />} />
+        //                 <Route path="*" element={<NoPage />} />
+        //                 </Route>
+        //             </Routes>
+        //         </BrowserRouter>
+        //     );
+        // }
 
 // Example Explained
     // We wrap our content first with <BrowserRouter>.
@@ -125,9 +112,5 @@
         //     return <h1>404</h1>;
         // };
         // export default NoPage;
-</script>
 
-</body>
-</html>
-
-<!-- EOF -->
+// EOF
