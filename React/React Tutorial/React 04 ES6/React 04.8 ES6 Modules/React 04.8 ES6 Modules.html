@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script type="module">
+// React ES6 Modules
+    // JavaScript modules allow you to break up your code into separate files.
+    // This makes it easier to maintain the code-base.
+    // ES Modules rely on the import and export statements.
+
+// Export
+    // You can export a function or variable from any file.
+    // Let us create a file named person.js, and fill it with the things we want to export.
+    // There are two types of exports: Named and Default.
+
+// Named Exports
+    // You can create named exports two ways. In-line individually, or all at once at the bottom.
+    // In-line individually:
+        // person.js
+        export const name = "Jesse"
+        export const age = 27
+
+    // All at once at the bottom:
+        // person.js
+        const name2 = "Walter"
+        const age2 = 44
+        export { name2, age2 }
+
+// Default Exports
+    // Let us create another file, named message.js, and use it for demonstrating default export.
+    // You can only have one default export in a file.
+        // message.js
+        const message = () => {
+            const name3 = "Jesse";
+            const age3 = 27;
+            return name3 + ' is ' + age3 + 'years old.';
+        };
+        export default message;
+
+// Import
+    // You can import modules into a file in two ways, based on if they are named exports or default exports.
+    // Named exports must be destructured using curly braces. Default exports do not.
+
+    // Import named exports from the file person.js:
+        import { firstName, intAge } from "./person.js";
+        import { firstName2, intAge2 } from "./person.js";
+        document.getElementById("demo").innerHTML = "My name is " + firstName;
+        document.getElementById("demo").innerHTML += ", I am " + intAge + ".";
+        document.getElementById("demo2").innerHTML = "My name is " + firstName2;
+        document.getElementById("demo2").innerHTML += ", I am " + intAge2 + ".";
+
+    // Import a default export from the file message.js:
+        import messageFromFile from "./message.js";
+        document.getElementById("demo3").innerHTML = messageFromFile();
+</script>
+
+</body>
+</html>
+
+<!-- EOF -->

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1 id="demo"></h1>
+<h1 id="demo2"></h1>
+
+<script>
+// React ES6 Ternary Operator
+    // The ternary operator is a simplified conditional operator like if / else.
+    // Syntax: condition ? <expression if true> : <expression if false>
+    // Here is an example using if / else:
+        // Before:
+        function renderApp() {
+            document.getElementById("demo").innerHTML = "Welcome!";
+        }
+        function renderLogin() {
+            document.getElementById("demo").innerHTML = "Please log in";
+        }
+        let authenticated = true;
+        if (authenticated) {
+            renderApp();
+        } else {
+            renderLogin();
+        }
+
+    // Here is the same example using a ternary operator:
+        // With Ternary
+            function renderApp2() {
+                document.getElementById("demo2").innerHTML = "Welcome!";
+            }
+            function renderLogin2() {
+                document.getElementById("demo2").innerHTML = "Please log in";
+            }
+            let authenticated2 = false;
+            authenticated2 ? renderApp2() : renderLogin2();
+</script>
+
+<p>Try changing the "authenticated" variable to false, and run the code to see what happens.</p>
+
+</body>
+</html>
+
+<!-- EOF -->
