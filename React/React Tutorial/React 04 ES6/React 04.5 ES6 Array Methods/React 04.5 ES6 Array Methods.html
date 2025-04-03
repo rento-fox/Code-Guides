@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+
+<script type="text/babel">
+// React ES6 Array Methods
+    // There are many JavaScript array methods.
+    // One of the most useful in React is the .map() array method.
+    // The .map() method allows you to run a function on each item in the array,
+    // returning a new array as the result.
+    // In React, map() can be used to generate lists.
+
+    // Generate a list of items from an array:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myArray = ['apple', 'banana', 'orange'];
+        const myList = myArray.map((item) => <p>{item}</p>)
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(myList);
+</script>
+
+</body>
+</html>
+
+<!-- EOF -->
