@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="root"></div>
+<div id="root2"></div>
+<div id="root3"></div>
+
+<script type="text/babel">
+// React Events
+    // Just like HTML DOM events, React can perform actions based on user events.
+    // React has the same events as HTML: click, change, mouseover etc.
+
+// Adding Events
+    // React events are written in camelCase syntax:
+    //     onClick instead of onclick.
+    // React event handlers are written inside curly braces:
+    //     onClick={shoot} instead of onclick="shoot()".
+
+    // React:
+    //     <button onClick={shoot}>Take the Shot!</button>
+    // HTML:
+    //     <button onclick="shoot()">Take the Shot!</button>
+
+    // Put the shoot function inside the Football component:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        function Football() {
+            const shoot = () => {
+                alert("Great Shot!");
+            }
+            return (
+                <>
+                <button onClick={shoot}>Take the shot!</button>
+                <br /><br />
+                </>
+            );
+        }
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<Football />);
+
+// Passing Arguments
+    // To pass an argument to an event handler, use an arrow function.
+    // Send "Goal!" as a parameter to the shoot function, using arrow function:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        function Football2() {
+            const shoot = (a) => {
+                alert(a);
+            }
+            return (
+                <>
+                <button onClick={() => shoot("Goal!")}>Take the shot!</button>
+                <br /><br />
+                </>
+            );
+        }
+        const root2 = ReactDOM.createRoot(document.getElementById('root2'));
+        root2.render(<Football2 />);
+
+// React Event Object
+    // Event handlers have access to the React event that triggered the function.
+    // In our example the event is the "click" event.
+    // Arrow Function: Sending the event object manually:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        function Football3() {
+            const shoot = (arg, event) => {
+                alert("Argument is " + arg + ", and event type is " + event.type);
+                    // 'b' represents the React event that triggered the function.
+                    // In this case, the 'click' event
+            }
+            return (
+                <button onClick={(event) => shoot("Goal!", event)}>Take the shot!</button>
+            );
+        }
+        const root3 = ReactDOM.createRoot(document.getElementById('root3'));
+        root3.render(<Football3 />);
+
+    // This will come in handy when we look at Form in a later chapter.
+</script>
+
+</body>
+</html>
+
+<!-- EOF -->
