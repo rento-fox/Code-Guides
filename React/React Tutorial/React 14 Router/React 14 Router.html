@@ -38,29 +38,27 @@
     // Now we will use our Router in our main.jsx file.
     // Use React Router to route to pages based on URL:
     // main.jsx:
-        // import ReactDOM from "react-dom/client";
-        // import { BrowserRouter, Routes, Route } from "react-router-dom";
-        // import Layout from "./pages/Layout";
-        // import Home from "./pages/Home";
-        // import Blogs from "./pages/Blogs";
-        // import Contact from "./pages/Contact";
-        // import NoPage from "./pages/NoPage";
-        // export default function App() {
-        //     return (
-        //         <BrowserRouter>
-        //             <Routes>
-        //                 <Route path="/" element={<Layout />}>
-        //                 <Route index element={<Home />} />
-        //                 <Route path="blogs" element={<Blogs />} />
-        //                 <Route path="contact" element={<Contact />} />
-        //                 <Route path="*" element={<NoPage />} />
-        //                 </Route>
-        //             </Routes>
-        //         </BrowserRouter>
-        //     );
-        // }
-        // const root = ReactDOM.createRoot(document.getElementById('root'));
-        // root.render(<App />);
+        import ReactDOM from "react-dom/client";
+        import { BrowserRouter, Routes, Route } from "react-router-dom";
+        import Layout from "./pages/Layout";
+        import Home from "./pages/Home";
+        import Blogs from "./pages/Blogs";
+        import Contact from "./pages/Contact";
+        import NoPage from "./pages/NoPage";
+        export default function App() {
+            return (
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/" element={<Layout />}>
+                        <Route index element={<Home />} />
+                        <Route path="blogs" element={<Blogs />} />
+                        <Route path="contact" element={<Contact />} />
+                        <Route path="*" element={<NoPage />} />
+                        </Route>
+                    </Routes>
+                </BrowserRouter>
+            );
+        }
 
 // Example Explained
     // We wrap our content first with <BrowserRouter>.
