@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="root"></div>
+<div id="root2"></div>
+<div id="root3"></div>
+<div id="root4"></div>
+<div id="root5"></div>
+<div id="root6"></div>
+<div id="root7"></div>
+<div id="root8"></div>
+<div id="root9"></div>
+<div id="root10"></div>
+
+<script type="text/babel">
+// React JSX
+    // JSX stands for JavaScript XML.
+    // JSX allows us to write HTML in React.
+    // JSX makes it easier to write and add HTML in React.
+
+// Coding JSX
+    // JSX allows us to write HTML elements in JavaScript,
+    // and place them in the DOM without any createElement() and/or appendChild() methods.
+    // JSX converts HTML tags into react elements.
+    // You are not required to use JSX, but JSX makes it easier to write React applications.
+
+    // Here are two examples. The first uses JSX and the second does not:
+    // JSX:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement = <h1>I Love JSX!</h1>;
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(myElement);
+
+    // Without JSX:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement2 = React.createElement('h1', {}, 'I do not use JSX!');
+        const root2 = ReactDOM.createRoot(document.getElementById('root2'));
+        root2.render(myElement2);
+
+    // As you can see in the first example, JSX allows us to write HTML directly within the JavaScript code.
+    // JSX is an extension of the JavaScript language based on ES6, and is translated into regular JavaScript at runtime.
+
+// Expressions in JSX
+    // With JSX you can write expressions inside curly braces { }.
+    // The expression can be a React variable, or property, or any other valid JavaScript expression.
+    // JSX will execute the expression and return the result:
+    // Execute the expression 5 + 5:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement3 = <h1>React is {5 + 5} times better with JSX</h1>;
+        const root3 = ReactDOM.createRoot(document.getElementById('root3'));
+        root3.render(myElement3);
+
+// Inserting a Large Block of HTML
+    // To write HTML on multiple lines, put the HTML inside parentheses:
+    // Create a list with three list items:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement4 = (
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+        </ul>
+        );
+        const root4 = ReactDOM.createRoot(document.getElementById('root4'));
+        root4.render(myElement4);
+
+// One Top Level Element
+    // The HTML code must be wrapped in ONE top level element.
+    // So if you like to write two paragraphs, you must put them inside a parent element, like a div element.
+    // Wrap two paragraphs inside one DIV element:
+        // import React from 'react';
+        // import ReactDOM from 'react-do/client';
+        const myElement5 = (
+        <div>
+            <h1>I am a Header.</h1>
+            <h1>I am a Header too.</h1>
+        </div>
+        );
+        const root5 = ReactDOM.createRoot(document.getElementById('root5'));
+        root5.render(myElement5);
+
+    // JSX will throw an error if the HTML is not correct, or if the HTML misses a parent element.
+
+    // Alternatively, you can use a "fragment" to wrap multiple lines.
+    // This will prevent unnecessarily adding extra nodes to the DOM.
+    // A fragment looks like an empty HTML tag: <></>.
+    // Wrap two paragraphs inside a fragment:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement6 = (
+            <>
+            <p>I am a paragraph.</p>
+            <p>I am a paragraph too.</p>
+            </>
+        );
+        const root6 = ReactDOM.createRoot(document.getElementById('root6'));
+        root6.render(myElement6);
+
+// Elements Must be Closed
+    // JSX follows XML rules, and therefore HTML elements must be properly closed.
+    // Close empty elements with />
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement7 = <input type="text" />;
+        const root7 = ReactDOM.createRoot(document.getElementById('root7'));
+        root7.render(myElement7);
+
+    // JSX will throw an error if the HTML is not properly closed.
+
+// Attribute class = className
+    // The class attribute is a much used attribute in HTML, but since JSX is rendered as JavaScript,
+    // and the class keyword is a reserved word in JavaScript, you are not allowed to use it in JSX.
+    // Use attribute className instead.
+    // JSX solved this by using className instead. When JSX is rendered,
+    // it translates className attributes into class attributes.
+    
+    // Use attribute className instead of class in JSX:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myElement8 = <h1 className="myclass">Hello World</h1>;
+        const root8 = ReactDOM.createRoot(document.getElementById('root8'));
+        root8.render(myElement8);
+
+// Conditions - if statements
+    // React supports if statements, but not inside JSX.
+    // To be able to use conditional statements in JSX,
+    // you should put the if statements outside of the JSX, or you could use a ternary expression instead:
+
+    // Option 1:
+    // Write if statements outside of the JSX code:
+    // Write "Hello" if x is less than 10, otherwise "Goodbye":
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const x = 5;
+        let text = "Goodbye";
+        if (x < 10) {
+            text = "Hello if";
+        }
+        const myElement9 = <h1>{text}</h1>;
+        const root9 = ReactDOM.createRoot(document.getElementById('root9'));
+        root9.render(myElement9);
+
+    // Option 2:
+    // Use ternary expressions instead:
+    // Write "Hello" if x is less than 10, otherwise "Goodbye":
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const y = 5;
+        const myElement10 = <h1>{(y) < 10 ? "Hello ternary" : "Goodbye"}</h1>;
+        const root10 = ReactDOM.createRoot(document.getElementById('root10'));
+        root10.render(myElement10);
+
+    // Note that in order to embed a JavaScript expression inside JSX, the JavaScript must be wrapped with curly braces, {}.
+</script>
+
+</body>
+</html>
+
+<!-- EOF -->
