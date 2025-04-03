@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="root"></div>
+<div id="root2"></div>
+<header id="sandy"></header>
+
+<script type="text/babel">
+// React Render HTML
+    // React's goal is in many ways to render HTML in a web page.
+    // React renders HTML to the web page by using a function called createRoot() and its method render().
+
+// The createRoot Function
+    // The createRoot() function takes one argument, an HTML element.
+    // The purpose of the function is to define the HTML element where a React component should be displayed.
+
+// The render Method
+    // The render() method is then called to define the React component that should be rendered.
+    // Display a paragraph inside an element with the id of "root":
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(<p>Hello</p>);
+
+    // Note that the element id does not have to be called "root", but this is the standard convention.
+
+// The HTML Code
+    // The HTML code in this tutorial uses JSX which allows you to write HTML tags inside the JavaScript code:
+    // Do not worry if the syntax is unfamiliar, you will learn more about JSX in the next chapter.
+    // Create a variable that contains HTML code and display it in the "root" node:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const myelement2 = (
+        <table>
+            <tr><th>Name</th></tr>
+            <tr><td>John</td></tr>
+            <tr><td>Elsa</td></tr>
+        </table>
+        );
+        const container2 = document.getElementById('root2');
+        const root2 = ReactDOM.createRoot(container2);
+        root2.render(myelement2);
+
+// The Root Node
+    // The root node is the HTML element where you want to display the result.
+    // It is like a container for content managed by React.
+    // It does NOT have to be a <div> element and it does NOT have to have the id='root':
+    // The root node can be called whatever you like:
+        // import React from 'react';
+        // import ReactDOM from 'react-dom/client';
+        const container3 = document.getElementById('sandy');
+        const root3 = ReactDOM.createRoot(container3);
+        root3.render(<p>Hallo</p>);
+</script>
+
+</body>
+</html>
+
+<!-- EOF -->
