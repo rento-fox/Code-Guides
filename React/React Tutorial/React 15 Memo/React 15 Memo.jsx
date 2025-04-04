@@ -3,6 +3,8 @@
     // This can improve performance.
     // This section uses React Hooks. See 'React Hooks' for more information on Hooks.
 
+    // Note: A working example in 'react-vite-js-app'
+
 // Problem
     // In this example, the Todos component re-renders even when the todos have not changed.
     // index.js:

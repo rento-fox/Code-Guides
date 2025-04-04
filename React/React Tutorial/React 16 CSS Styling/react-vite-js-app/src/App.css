@@ -1,0 +1,17 @@
+/*
+You can write your CSS styling in a separate file.
+Just save the file with the .css file extension, and import it in your application.
+Note: You can call the file whatever you like, just remember the correct file extension.
+
+Create a new file called "App.css" and insert some CSS code in it:
+*/
+
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+
+/* EOF */
