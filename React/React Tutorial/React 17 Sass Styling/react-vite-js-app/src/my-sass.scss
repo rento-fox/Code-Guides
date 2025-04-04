@@ -1,0 +1,13 @@
+// Create a Sass file
+    // Create a Sass file the same way as you create CSS files,
+    // but Sass files have the file extension .scss
+    // In Sass files you can use variables and other Sass functions:
+    // Create a variable to define the color of the text:
+
+$myColor: red;
+
+h1 {
+    color: $myColor;
+}
+
+// EOF
