@@ -13,7 +13,7 @@ Creating A React + Vite + Ts App
     please upgrade if your package manager warns about it.
 
     Run this command to create a new React app with Vite:
-    "npm create vite@latest <app/folder-name>"
+        "npm create vite@latest <app/folder-name>"
 
     Output:
         npx
