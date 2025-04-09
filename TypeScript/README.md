@@ -23,7 +23,7 @@ Installing TypeScript
 
 <br/>
 
-Transpiling and running TypeScript:
+Transpiling And Running TypeScript:
 
     In the VS Code terminal, navigate to the directory where your files are located.
 

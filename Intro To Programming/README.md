@@ -1,3 +1,7 @@
+Last Updated: 09.04.2025
+
+<br/>
+
 How To Run Files:
 
     In the VS Code terminal, navigate to the directory where your files are located.
@@ -8,6 +12,9 @@ How To Run Files:
 
         JavaScript:
             node '.\filename.js'
+
+        TypeScript:
+            ts-node '.\filename.ts'
 
         Java:
             java '.\filename.java'
@@ -25,7 +32,5 @@ How To Find All Instances Of Highlighted Text In Visual Studio Code:
     Ctrl + Shift + L
 
 <br/>
-
-Last Updated: 02.04.2025
 
 EOF
