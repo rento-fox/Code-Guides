@@ -49,7 +49,8 @@
 
 // Read State
     // We can now include our state anywhere in our component.
-    // Use the state variable in the rendered component.
+
+    // Use the state variable in the rendered component:
         // import { useState } from "react";
         // import ReactDOM from "react-dom/client";
         function FavoriteColor() {
@@ -62,6 +63,7 @@
 // Update State
     // To update our state, we use our state updater function.
     // We should never directly update state. Ex: color = "red" is not allowed.
+
     // Use a button to update the state:
         // import { useState } from "react";
         // import ReactDOM from "react-dom/client";
@@ -84,6 +86,7 @@
 // What Can State Hold
     // The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these!
     // We could create multiple state Hooks to track individual values.
+
     // Create multiple state Hooks:
         // import { useState } from "react";
         // import ReactDOM from "react-dom/client";
@@ -134,8 +137,8 @@
     // When state is updated, the entire state gets overwritten.
     // What if we only want to update the color of our car?
     // If we only called setCar({color: "blue"}), this would remove the brand, model, and year from our state.
-
     // We can use the JavaScript spread operator to help us.
+    
     // Use the JavaScript spread operator to update only the color of the car:
         // import { useState } from "react";
         // import ReactDOM from "react-dom/client";
