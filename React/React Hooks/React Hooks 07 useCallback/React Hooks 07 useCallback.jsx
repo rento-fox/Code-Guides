@@ -17,30 +17,30 @@
     // One reason to use useCallback is to prevent a component from re-rendering unless its props have changed.
     // In this example, you might think that the Todos component will not re-render unless the todos change:
     // index.js
-    //     import { useState } from "react";
-    //     import ReactDOM from "react-dom/client";
-    //     import Todos from "./Todos";
-    //     const App = () => {
-    //         const [count, setCount] = useState(0);
-    //         const [todos, setTodos] = useState([]);
-    //         const increment = () => {
-    //             setCount((c) => c + 1);
-    //         };
-    //         const addTodo = () => {
-    //             setTodos((t) => [...t, "New Todo"]);
-    //         };
-    //         return (
-    //             <>
-    //             <Todos todos={todos} addTodo={addTodo} />
-    //             <hr />
-    //             <div>
-    //                 Count: {count} <button onClick={increment}>+</button>
-    //             </div>
-    //             </>
-    //         );
-    //     };
-    //     const root = ReactDOM.createRoot(document.getElementById('root'));
-    //     root.render(<App />);
+        // import { useState } from "react";
+        // import ReactDOM from "react-dom/client";
+        // import Todos from "./Todos";
+        // const App = () => {
+        //     const [count, setCount] = useState(0);
+        //     const [todos, setTodos] = useState([]);
+        //     const increment = () => {
+        //         setCount((c) => c + 1);
+        //     };
+        //     const addTodo = () => {
+        //         setTodos((t) => [...t, "New Todo"]);
+        //     };
+        //     return (
+        //         <>
+        //         <Todos todos={todos} addTodo={addTodo} />
+        //         <hr />
+        //         <div>
+        //             Count: {count} <button onClick={increment}>+</button>
+        //         </div>
+        //         </>
+        //     );
+        // };
+        // const root = ReactDOM.createRoot(document.getElementById('root'));
+        // root.render(<App />);
 
     // Todos.js
         // import { memo } from "react";
