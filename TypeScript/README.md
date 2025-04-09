@@ -1,3 +1,9 @@
+Last Updated: 09.04.2025
+
+<br/>
+
+tsconfig.json-file
+
     To create a 'tsconfig.json' file, run command:
         tsc -init
 
@@ -5,17 +11,30 @@
         Change: "target": "es2016",
         To:     "target": "ESNext",
 
-    Transpiling and running TypeScript:
-        In the VS Code terminal, navigate to the directory where your files are located.
+<br/>
 
-        To transpile a TypeScript file into a JavaScript file, run command:
-            tsc
+Installing TypeScript
 
-        Then, to run the transpiled JavaScript file, run command:
-            node '.\filename.js'
+    Install TypeScript by running command:
+        npm install -g typescript
 
-        To run a TypeScript file without transpiling, run the command:
-            ts-node '.\filename.ts'
+    Check TypeScript version by running command:
+        tsc --version
+
+<br/>
+
+Transpiling and running TypeScript:
+
+    In the VS Code terminal, navigate to the directory where your files are located.
+
+    To transpile a TypeScript file into a JavaScript file, run command:
+        tsc
+
+    Then, to run the transpiled JavaScript file, run command:
+        node '.\filename.js'
+
+    To run a TypeScript file without transpiling, run the command:
+        ts-node '.\filename.ts'
 
     If you are transpiling TypeScript files into JavaScript, then:
         In /* Emit */ settings:
@@ -27,15 +46,6 @@
             To:     "noEmitOnError": true,
             (Uncomment it, good practice)
 
-    Check the version of TypeScript installed on your system:
-        Run the following command in your terminal or command prompt:
-            tsc --version
-
-        If TypeScript is not installed globally, you'll get an error, and you'll need to install it first using:
-            npm install -g typescript
-
 <br/>
-
-Last Updated: 02.04.2025
 
 EOF
