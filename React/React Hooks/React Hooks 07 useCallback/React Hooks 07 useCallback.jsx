@@ -1,28 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-
-<script type="text/babel">
 // React useCallback Hook
     // The React useCallback Hook returns a memoized callback function.
     // Think of memoization as caching a value so that it does not need to be recalculated.
     // This allows us to isolate resource intensive functions,
     // so that they will not automatically run on every render.
-    
+
     // The useCallback Hook only runs when one of its dependencies update.
     // This can improve performance.
-    
+
     // The useCallback and useMemo Hooks are similar.
     // The main difference is that useMemo returns a memoized value
     // and useCallback returns a memoized function.
+
+    // Note: Working example in 'react-vite-js-app'
 
 // Problem
     // One reason to use useCallback is to prevent a component from re-rendering unless its props have changed.
@@ -125,9 +114,5 @@
         // export default memo(Todos);
 
     // Now the Todos component will only re-render when the todos prop changes.
-</script>
 
-</body>
-</html>
-
-<!-- EOF -->
+// EOF
