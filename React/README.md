@@ -1,3 +1,7 @@
+Last Updated: 09.04.2025
+
+<br/>
+
 Creating A React + Vite + Ts App
 
     Vite (French word for "quick", pronounced "veet") is a build tool that aims
@@ -210,7 +214,5 @@ Summary:
     For routing/navigation: React Router v7.
 
 <br/>
-
-Last Updated: 09.04.2025
 
 EOF
