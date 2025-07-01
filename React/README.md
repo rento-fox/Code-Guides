@@ -1,8 +1,8 @@
-Last Updated: 12.04.2025
+Last Updated: 01.07.2025
 
 <br/>
 
-Creating A React + Vite + Ts App
+Creating A React + Vite + TypeScript App
 
     Vite (French word for "quick", pronounced "veet") is a build tool that aims
     to provide a faster and leaner development experience for modern web projects.
