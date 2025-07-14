@@ -10,7 +10,8 @@ The following pages explain the basic programming concepts, using code examples,
 ## Who Is This For?
 These pages are for anyone who wants a clear explanation of one or more programming concepts. <br>
 Whether you're a total beginner or someone who needs to revisit a programming concept, <br>
-these pages will help you understand how code works at a fundamental level. <br>
+these pages will help you understand how code works at a fundamental level.
+
 Looking through the code examples, you can see for yourself that the concepts are the same <br>
 in all programming languages, they are just written a little differently.
 
