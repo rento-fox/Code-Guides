@@ -6,7 +6,6 @@ public class Java {
         for (int i = 5; i > 0; i--) {
             System.out.println(i); // (prints numbers 5 to 1 vertically)
         }
-        
         System.out.println("Liftoff!"); // Liftoff!
     }
 }
