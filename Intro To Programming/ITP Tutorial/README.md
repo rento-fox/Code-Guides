@@ -15,7 +15,7 @@ these pages will help you understand how code works at a fundamental level.
 Looking through the code examples, you can see for yourself that the concepts are the same <br>
 in all programming languages, they are just written a little differently.
 
-### [Go Back](https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming') or [Continue](https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2001%20Programming 'ITP 01 Programming')
+### [< Go Back](https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming') or [Continue >](https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2001%20Programming 'ITP 01 Programming')
 
 <br>
 
