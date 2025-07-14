@@ -1,11 +1,14 @@
-Common Programming Naming Conventions and Their Typical Use Cases (by ChatGPT):
+# Common Programming Naming Conventions,<br> and Their Typical Use Cases (by ChatGPT):
 
-    Camel Case (camelCase)
-        Definition: The first word starts with a lowercase letter,
-        and each subsequent word starts with an uppercase letter. There are no spaces or underscores.
-            Languages: JavaScript, Java, Swift, C#
-            Purpose: variables, function names, method names, object properties.
-            Example: userName, getUserInfo, userProfile
+> ### Camel Case (camelCase)
+>
+> The first word starts with a lowercase letter,
+> and each subsequent word starts with an uppercase letter.<br>
+> There are no spaces or underscores.
+>
+> Languages - JavaScript, Java, Swift, C#<br>
+> Purpose - variables, function names, method names, object properties.<br>
+> Examples - userName, getUserInfo, userProfile
 
     Pascal Case (PascalCase)
         Definition: Similar to camel case, but the first word starts with an uppercase letter.
