@@ -5,26 +5,26 @@ Then run the correct command for the file.
 
 Some examples below:
 
-> ### Python
->     python '.\filename.py'
+### Python
+    python '.\filename.py'
 
-> ### JavaScript
->     node '.\filename.js'
+### JavaScript
+    node '.\filename.js'
 
-> ### TypeScript
->     ts-node '.\filename.ts'
+### TypeScript
+    ts-node '.\filename.ts'
 
-> ### Java
->     java '.\filename.java'
+### Java
+    java '.\filename.java'
 
-> ### C++
-> First compile the program:
->
->     g++ -o Cpp filename.cpp
->
-> This will create a "Cpp.exe" file. Run it with command:
->
->     .\Cpp.exe
+### C++
+First compile the program:
+
+    g++ -o Cpp filename.cpp
+
+This will create a "Cpp.exe" file. Run it with command:
+
+    .\Cpp.exe
 
 <br/>
 
