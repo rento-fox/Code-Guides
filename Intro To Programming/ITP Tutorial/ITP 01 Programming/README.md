@@ -31,6 +31,7 @@ Just look at how a for loop counting down from 10 is written in Python, JavaScri
 ### Python
     for i in range(10, 0, -1):
         print(i)
+
     print('Liftoff!')
 
 ### JavaScript
