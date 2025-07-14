@@ -21,7 +21,6 @@ Use consistent casing styles (e.g., camelCase, snake_case). <br>
 Follow language conventions (e.g., PascalCase for classes in Java).
 
 ### Examples:
-
 | Convention   | Example       | Common In
 |--------------|---------------|----------
 | `camelCase`  | `userAge`     | JavaScript, Java, TypeScript
@@ -36,12 +35,10 @@ A function should be short and modular, ideally 5-15 lines. <br>
 Avoid deep nesting (use early returns).
 
 ### ✅ Good:
-
     def get_discounted_price(price, discount):
         return price * (1 - discount)
 
 ### ❌ Bad:
-
     def price_after_discount(price, discount, tax, shipping):
         final_price = price - (price * discount)
         final_price += tax + shipping
@@ -55,13 +52,11 @@ Avoid redundant comments (code should be self-explanatory). <br>
 Use docstrings for functions and classes.
     
 ### ✅ Good:
-
     # Calculate total price after discount
     def get_discounted_price(price, discount):
         return price * (1 - discount)
 
 ### ❌ Bad:
-
     # This function calculates price after discount
     def get_discounted_price(price, discount):
         return price * (1 - discount) # Multiply price by (1 - discount)
@@ -80,7 +75,6 @@ Avoid duplicating code by using functions and modules. <br>
 Extract common logic into reusable functions.
 
 ### ✅ Good:
-
     def calculate_discount(price, discount):
         return price * (1 - discount)
     
@@ -88,7 +82,6 @@ Extract common logic into reusable functions.
     price2 = calculate_discount(200, 0.2)
 
 ### ❌ Bad:
-
     price1 = 100 - (100 * 0.1)
     price2 = 200 - (200 * 0.2)
 
@@ -99,14 +92,12 @@ Use try-catch or try-except blocks to handle errors. <br>
 Log errors properly instead of hiding them.
 
 ### ✅ Good:
-
     try:
         value = int(input("Enter a number: "))
     except ValueError:
         print("Invalid input! Please enter a number.")
 
 ### ❌ Bad:
-
     value = int(input("Enter a number: ")) # Crashes if input is invalid
 
 <br>
@@ -117,13 +108,11 @@ Use efficient data structures (dict instead of a list for lookups). <br>
 Cache results if needed (e.g., memoization in recursion).
 
 ### ✅ Good:
-
     # Use dictionary for quick lookup
     user_roles = {"Alice": "Admin", "Bob": "User"}
     role = user_roles.get("Alice") # O(1) constant time complexity (faster)
 
 ### ❌ Bad:
-
     # Searching in a list (slow)
     users = [("Alice", "Admin"), ("Bob", "User")]
     role = next((role for user, role in users if user == "Alice"), None)
@@ -137,7 +126,6 @@ Use testing frameworks (Jest for JS, PyTest for Python, JUnit for Java). <br>
 Follow TDD (Test-Driven Development) when possible.
 
 ### Example:
-
     import unittest
             
     def add(a, b):
@@ -173,13 +161,11 @@ Use parameterized queries to prevent SQL injection. <br>
 Sanitize user input to avoid XSS attacks.
 
 ### ✅ Good:
-
     import bcrypt
 
     hashed_pw = bcrypt.hashpw("mypassword".encode(), bcrypt.gensalt())
 
 ### ❌ Bad:
-
     password = "mypassword" # Plain text, BAD!
 
 <br>
@@ -190,7 +176,6 @@ Write API documentation (Swagger, Postman). <br>
 Use docstrings (""" """ in Python, /** */ in JavaScript).
 
 ### Example:
-
     """
     This module handles user authentication.
 

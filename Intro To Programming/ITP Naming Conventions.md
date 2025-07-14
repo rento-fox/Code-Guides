@@ -1,8 +1,8 @@
 # Common Programming Naming Conventions, <br> and Their Typical Use Cases (by ChatGPT)
 
 ## Camel Case (camelCase)
-The first word starts with a lowercase letter,<br>
-and each subsequent word starts with an uppercase letter.<br>
+The first word starts with a lowercase letter, <br>
+and each subsequent word starts with an uppercase letter. <br>
 There are no spaces or underscores.
 
 | Common In        | Purpose                         | Examples
@@ -12,7 +12,7 @@ There are no spaces or underscores.
 <br>
 
 ## Pascal Case (PascalCase)
-Similar to camel case, but the first word starts with an uppercase letter.<br>
+Similar to camel case, but the first word starts with an uppercase letter. <br>
 No spaces or underscores.
 
 | Common In        | Purpose                         | Examples
@@ -49,7 +49,7 @@ All letters are lowercase, and words are separated by hyphens (-).
 <br>
 
 ## Hungarian Notation
-A prefix is added to the variable name to indicate its type or purpose.<br>
+A prefix is added to the variable name to indicate its type or purpose. <br>
 (e.g., str for strings, int for integers, etc.)
 
 | Common In        | Purpose                         | Examples
