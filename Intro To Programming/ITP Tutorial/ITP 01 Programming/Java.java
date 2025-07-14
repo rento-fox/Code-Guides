@@ -1,8 +1,7 @@
-public class Java2 {
+public class Java {
     public static void main(String[] args) {
-        System.out.println("Hello Java.java"); // Hello Java.java
+        // Java
 
-        // for loop in Java
         for (int i = 5; i > 0; i--) {
             System.out.println(i); // (prints numbers 5 to 1 vertically)
         }
