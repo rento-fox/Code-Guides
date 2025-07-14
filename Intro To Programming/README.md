@@ -1,4 +1,4 @@
-#### *Last Updated: 15.07.2025*
+*Last Updated: 15.07.2025*
 
 <br>
 
@@ -6,4 +6,4 @@
 
 <br>
 
-#### *EOF*
+*EOF*

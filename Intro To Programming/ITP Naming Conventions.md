@@ -85,4 +85,4 @@ Naming variables/functions/classes based on their purpose.
 
 <br>
 
-#### *EOF*
+*EOF*

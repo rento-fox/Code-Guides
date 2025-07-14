@@ -222,4 +222,4 @@ Use docstrings (""" """ in Python, /** */ in JavaScript).
 
 <br>
 
-#### *EOF*
+*EOF*
