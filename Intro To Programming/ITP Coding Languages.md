@@ -1,7 +1,6 @@
 # Coding Languages and Their Most Common Use Cases (by ChatGPT)
 
 ## General-Purpose Languages
-
 | Language     | Common Use Cases
 |--------------|-----------------
 | C            | Systems programming, embedded systems, operating systems, game development
@@ -15,7 +14,6 @@
 <br>
 
 ## Web Development
-
 | Language       | Common Use Cases
 |----------------|-----------------
 | JavaScript     | Frontend development, backend (Node.js), game development
@@ -28,7 +26,6 @@
 <br>
 
 ## Backend Development
-
 | Language     | Common Use Cases
 |--------------|-----------------
 | Python       | Web development (Django, Flask, FastAPI)
@@ -41,7 +38,6 @@
 <br>
 
 ## Mobile App Development
-
 | Language   | Common Use Cases
 |------------|-----------------
 | Swift      | iOS development
@@ -53,7 +49,6 @@
 <br>
 
 ## Game Development
-
 | Language     | Common Use Cases
 |--------------|-----------------
 | C++          | High-performance game engines (Unreal Engine)
@@ -65,7 +60,6 @@
 <br>
 
 ## Database & Big Data
-
 | Language   | Common Use Cases
 |------------|-----------------
 | SQL        | Databases (MySQL, PostgreSQL, SQLite)
@@ -76,7 +70,6 @@
 <br>
 
 ## Data Science & Machine Learning
-
 | Language   | Common Use Cases
 |------------|-----------------
 | Python     | AI/ML, data analysis, automation
@@ -87,7 +80,6 @@
 <br>
 
 ## Cybersecurity & Ethical Hacking
-
 | Language   | Common Use Cases
 |------------|-----------------
 | Python     | Security automation, penetration testing
@@ -97,7 +89,6 @@
 <br>
 
 ## Embedded Systems & IoT
-
 | Language   | Common Use Cases
 |------------|-----------------
 | C          | Microcontrollers, embedded devices
@@ -108,7 +99,6 @@
 <br>
 
 ## DevOps & Cloud Computing
-
 | Language   | Common Use Cases
 |------------|-----------------
 | Go         | Cloud applications, Kubernetes
@@ -119,7 +109,6 @@
 <br>
 
 ## Scientific Computing & Simulations
-
 | Language   | Common Use Cases
 |------------|-----------------
 | MATLAB     | Engineering, physics, numerical simulations
@@ -129,7 +118,6 @@
 <br>
 
 ## Blockchain & Smart Contracts
-
 | Language   | Common Use Cases
 |------------|-----------------
 | Solidity   | Smart contracts (Ethereum)

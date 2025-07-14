@@ -1,8 +1,8 @@
 # Good Coding Practices (by ChatGPT)
 
 ## Write Clean & Readable Code
-Use proper indentation to make your code easy to read.<br>
-Avoid long lines (keep them within ~80-120 characters).<br>
+Use proper indentation to make your code easy to read. <br>
+Avoid long lines (keep them within ~80-120 characters). <br>
 Use spaces around operators for better clarity.
 
 ### ✅ Good:
@@ -16,8 +16,8 @@ Use spaces around operators for better clarity.
 <br>
 
 ## Use Meaningful & Consistent Naming
-Use descriptive variable names (user_age instead of ua).<br>
-Use consistent casing styles (e.g., camelCase, snake_case).<br>
+Use descriptive variable names (user_age instead of ua). <br>
+Use consistent casing styles (e.g., camelCase, snake_case). <br>
 Follow language conventions (e.g., PascalCase for classes in Java).
 
 ### Examples:
@@ -31,8 +31,8 @@ Follow language conventions (e.g., PascalCase for classes in Java).
 <br>
 
 ## Keep Functions & Methods Small
-Each function should do only one thing (Single Responsibility Principle).<br>
-A function should be short and modular, ideally 5-15 lines.<br>
+Each function should do only one thing (Single Responsibility Principle). <br>
+A function should be short and modular, ideally 5-15 lines. <br>
 Avoid deep nesting (use early returns).
 
 ### ✅ Good:
@@ -50,8 +50,8 @@ Avoid deep nesting (use early returns).
 <br>
 
 ## Use Comments Wisely
-Write meaningful comments (explain "why", not "what").<br>
-Avoid redundant comments (code should be self-explanatory).<br>
+Write meaningful comments (explain "why", not "what"). <br>
+Avoid redundant comments (code should be self-explanatory). <br>
 Use docstrings for functions and classes.
     
 ### ✅ Good:
@@ -69,14 +69,14 @@ Use docstrings for functions and classes.
 <br>
 
 ## Use Version Control (Git)
-Always use Git/GitHub/GitLab for version control.<br>
-Write clear commit messages (Fix login bug instead of Update code).<br>
+Always use Git/GitHub/GitLab for version control. <br>
+Write clear commit messages (Fix login bug instead of Update code). <br>
 Use branches (feature/signup-page, fix/payment-bug).
 
 <br>
 
 ## Follow DRY (Don't Repeat Yourself) Principle
-Avoid duplicating code by using functions and modules.<br>
+Avoid duplicating code by using functions and modules. <br>
 Extract common logic into reusable functions.
 
 ### ✅ Good:
@@ -95,7 +95,7 @@ Extract common logic into reusable functions.
 <br>
 
 ## Handle Errors Gracefully
-Use try-catch or try-except blocks to handle errors.<br>
+Use try-catch or try-except blocks to handle errors. <br>
 Log errors properly instead of hiding them.
 
 ### ✅ Good:
@@ -112,8 +112,8 @@ Log errors properly instead of hiding them.
 <br>
 
 ## Optimize Performance
-Avoid unnecessary loops and nested conditions.<br>
-Use efficient data structures (dict instead of a list for lookups).<br>
+Avoid unnecessary loops and nested conditions. <br>
+Use efficient data structures (dict instead of a list for lookups). <br>
 Cache results if needed (e.g., memoization in recursion).
 
 ### ✅ Good:
@@ -132,8 +132,8 @@ Cache results if needed (e.g., memoization in recursion).
 <br>
 
 ## Write Unit Tests
-Always write unit tests to verify code correctness.<br>
-Use testing frameworks (Jest for JS, PyTest for Python, JUnit for Java).<br>
+Always write unit tests to verify code correctness. <br>
+Use testing frameworks (Jest for JS, PyTest for Python, JUnit for Java). <br>
 Follow TDD (Test-Driven Development) when possible.
 
 ### Example:
@@ -153,8 +153,8 @@ Follow TDD (Test-Driven Development) when possible.
 <br>
 
 ## Keep Your Code Modular & Maintainable
-Break large files into smaller modules.<br>
-Follow SOLID principles in Object-Oriented Programming.<br>
+Break large files into smaller modules. <br>
+Follow SOLID principles in Object-Oriented Programming. <br>
 Use design patterns where applicable (Singleton, Factory, etc.).
 
 ### ✅ Good:
@@ -168,8 +168,8 @@ Use design patterns where applicable (Singleton, Factory, etc.).
 <br>
 
 ## Security Best Practices
-Never store passwords in plain text.<br>
-Use parameterized queries to prevent SQL injection.<br>
+Never store passwords in plain text. <br>
+Use parameterized queries to prevent SQL injection. <br>
 Sanitize user input to avoid XSS attacks.
 
 ### ✅ Good:
@@ -185,8 +185,8 @@ Sanitize user input to avoid XSS attacks.
 <br>
 
 ## Document Your Code
-Use README.md for project descriptions.<br>
-Write API documentation (Swagger, Postman).<br>
+Use README.md for project descriptions. <br>
+Write API documentation (Swagger, Postman). <br>
 Use docstrings (""" """ in Python, /** */ in JavaScript).
 
 ### Example:

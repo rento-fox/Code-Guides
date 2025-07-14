@@ -1,6 +1,6 @@
 *Last Updated: 15.07.2025*
 
-# Understanding The Concepts of Programming
+# Understanding the Concepts of Programming
 
 <br>
 
