@@ -1,4 +1,4 @@
-# How To Run Files (in Visual Studio Code):
+# How to Run Files (in Visual Studio Code):
 
 In the VSCode terminal, navigate to the directory where your file is located.<br>
 Then run the correct command for the file.
