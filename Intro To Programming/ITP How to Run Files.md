@@ -1,23 +1,23 @@
-# How to Run Files (in Visual Studio Code):
+# How to Run Files (in Visual Studio Code)
 
 In the VSCode terminal, navigate to the directory where your file is located.<br>
 Then run the correct command for the file.
 
 Some examples below:
 
-### Python
+## Python
     python '.\filename.py'
 
-### JavaScript
+## JavaScript
     node '.\filename.js'
 
-### TypeScript
+## TypeScript
     ts-node '.\filename.ts'
 
-### Java
+## Java
     java '.\filename.java'
 
-### C++
+## C++
 First compile the program:
 
     g++ -o Cpp filename.cpp

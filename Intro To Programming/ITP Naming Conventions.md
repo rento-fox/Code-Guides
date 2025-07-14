@@ -1,89 +1,87 @@
-# Common Programming Naming Conventions,<br> and Their Typical Use Cases (by ChatGPT):
+# Common Programming Naming Conventions,<br> and Their Typical Use Cases (by ChatGPT)
 
-### Camel Case (camelCase)
-The first word starts with a lowercase letter,
+## Camel Case (camelCase)
+The first word starts with a lowercase letter,<br>
 and each subsequent word starts with an uppercase letter.<br>
 There are no spaces or underscores.
 
-Languages - JavaScript, Java, Swift, C#<br>
-Purpose - variables, function names, method names, object properties.<br>
-Example - userName, getUserInfo, userProfile, fetchData
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| JavaScript, C#, <br> Swift, Java | variables, function names, <br> method names, object properties | `userName`, `fetchData`, <br> `getUserInfo` |
 
----
+<br>
 
-### Pascal Case (PascalCase)
+## Pascal Case (PascalCase)
 Similar to camel case, but the first word starts with an uppercase letter.<br>
 No spaces or underscores.
 
-Languages - C#, Java, TypeScript, C++<br>
-Purpose - class names, struct names, type names.<br>
-Example - PersonClass, UserProfile, OrderDetails
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| C#, TypeScript, <br> Java, C++ | class names, type names, <br> struct names | `PersonClass`, `UserProfile`, <br> `OrderDetails` |
 
----
+<br>
 
-### Snake Case (snake_case)
+## Snake Case (snake_case)
 All letters are lowercase, and words are separated by underscores.
 
-Languages - Python, Ruby, PHP<br>
-Purpose - variables, function names, method names, object properties.<br>
-Example - user_name, get_user_info, user_profile, fetch_data
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| Ruby, PHP, <br> Python | variables, function names, <br> method names, object properties | `user_name`, `fetch_data`, <br> `get_user_info` |
 
----
+<br>
 
-### Upper Snake Case (UPPER_SNAKE_CASE)
+## Upper Snake Case (UPPER_SNAKE_CASE)
 Similar to snake_case, but all letters are uppercase.
 
-Languages - Python, C, C++, Java<br>
-Purpose - constant variables, macro definitions.<br>
-Example - MAX_VALUE, PI_CONSTANT, DEFAULT_TIMEOUT
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| C++, Java, <br> Python, C | constant variables, <br> macro definitions | `MAX_VALUE`, `PI_CONSTANT`, <br> `DEFAULT_TIMEOUT` |
 
----
+<br>
 
-### Kebab Case (kebab-case)
+## Kebab Case (kebab-case)
 All letters are lowercase, and words are separated by hyphens (-).
 
-Languages - JavaScript (for some libraries), CSS, URLs<br>
-Purpose - CSS classes, file names, URLs.<br>
-Example - user-profile, main-header, default-theme, /api/get-user
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| CSS, URLs, <br> JavaScript (some libraries) | file names, URLs, <br> CSS classes | `user-profile`, `main-header`, <br> `default-theme`, `/api/get-user` |
 
----
+<br>
 
-### Hungarian Notation
+## Hungarian Notation
 A prefix is added to the variable name to indicate its type or purpose.<br>
 (e.g., str for strings, int for integers, etc.)
 
-Languages - C, C++, older languages<br>
-Purpose - Indicate the type of a variable.<br>
-Example - strName, intCount, boolActive, floatTemperature
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| C, C++, <br> older languages | Indicate the type <br> of a variable | `strName`, `intCount`, <br> `boolActive`, `floatTemperature` |
 
----
+<br>
 
-### All Lowercase (alllowercase)
+## All Lowercase (alllowercase)
 All letters are lowercase with no underscores or spaces.
 
-Languages - Shell scripts, URLs, Python<br>
-Purpose - Often used for file names and sometimes for variable names in scripts or config files.<br>
-Example - configfile, readme, setupscript
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| Python, URLs <br> Shell scripts | Often used for file names and sometimes <br> for variable names in scripts or config files | `configfile`, `readme`, <br> `setupscript` |
 
----
+<br>
 
-### Dot Notation (dot.notation)
+## Dot Notation (dot.notation)
 A naming convention where words are separated by periods (dots).
 
-Languages - Used in file paths, object properties in languages like JavaScript or Python.<br>
-Purpose - Used to represent file paths or access object properties/methods.<br>
-Example - com.example.project, user.profile.name
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| file paths, <br> object properties | Used to represent file paths <br> or access object properties/methods | `com.example.project`, <br> `user.profile.name` |
 
----
+<br>
 
-### Self-descriptive Naming
-Naming variables based on their purpose.
+## Self-descriptive Naming
+Naming variables/functions/classes based on their purpose.
 
-Languages - All programming languages<br>
-Purpose - Used when naming variables, functions, or classes to make their purpose clear.<br>
-Example - totalAmount, calculateTax, getUserName, StudentClass
-
----
+| Common In        | Purpose                         | Examples
+|------------------|---------------------------------|---------
+| All programming languages | Used when naming variables, functions, <br> or classes to make their purpose clear | `totalAmount`, `getUserName`, <br> `calculateTax`, `StudentClass` |
 
 <br>
 
