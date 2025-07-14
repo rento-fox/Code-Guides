@@ -127,7 +127,7 @@
 <br>
 <br>
 
-# Coding Languages And Their Shortened Names And File Extensions
+# Coding Languages and Their Shortened Names and File Extensions
 
 | Language      | Short Name | File Extension(s)
 |---------------|------------|------------------
