@@ -3,6 +3,6 @@ Ctrl + Shift + L
 
 ---
 
-<br/>
+<br>
 
 *EOF*
