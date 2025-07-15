@@ -27,10 +27,12 @@ Below is the code for creating the `favAnimal` variable in different programming
     </tr>
     <tr>
         <td>
-<pre><code>favAnimal = 'turtles'</code></pre>
+<pre><code>favAnimal = 'turtles'
+print('I like ' + favAnimal)</code></pre>
         </td>
         <td>
-<pre><code>const favAnimal = 'turtles';</code></pre>
+<pre><code>const favAnimal = 'turtles';
+console.log('I like ' + favAnimal);</code></pre>
         </td>
     </tr>
     <tr>
@@ -39,10 +41,12 @@ Below is the code for creating the `favAnimal` variable in different programming
     </tr>
     <tr>
         <td>
-<pre><code>String favAnimal = "turtles";</code></pre>
+<pre><code>String favAnimal = "turtles";
+System.out.println("I like " + favAnimal);</code></pre>
         </td>
         <td>
-<pre><code>string fav_animal = "turtles";</code></pre>
+<pre><code>string fav_animal = "turtles";
+cout << "I like " + favAnimal;</code></pre>
         </td>
     </tr>
 </table>
