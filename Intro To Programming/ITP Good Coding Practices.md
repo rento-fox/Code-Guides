@@ -13,8 +13,6 @@ Use spaces around operators for better clarity.
 -     total=price+tax
 -     if active === true && failed === false
 
-<br>
-
 ## Use Meaningful & Consistent Naming
 Use descriptive variable names (user_age instead of ua). <br>
 Use consistent casing styles (e.g., camelCase, snake_case). <br>
@@ -26,8 +24,6 @@ Follow language conventions (e.g., PascalCase for classes in Java).
 | `camelCase`  | `userAge`     | JavaScript, Java, TypeScript
 | `PascalCase` | `PersonClass` | C#, Java (classes)
 | `snake_case` | `user_age`    | Python, Ruby, PHP
-
-<br>
 
 ## Keep Functions & Methods Small
 Each function should do only one thing (Single Responsibility Principle). <br>
@@ -44,8 +40,6 @@ Avoid deep nesting (use early returns).
         final_price += tax + shipping
         return final_price
 
-<br>
-
 ## Use Comments Wisely
 Write meaningful comments (explain "why", not "what"). <br>
 Avoid redundant comments (code should be self-explanatory). <br>
@@ -61,14 +55,10 @@ Use docstrings for functions and classes.
     def get_discounted_price(price, discount):
         return price * (1 - discount) # Multiply price by (1 - discount)
 
-<br>
-
 ## Use Version Control (Git)
 Always use Git/GitHub/GitLab for version control. <br>
 Write clear commit messages (Fix login bug instead of Update code). <br>
 Use branches (feature/signup-page, fix/payment-bug).
-
-<br>
 
 ## Follow DRY (Don't Repeat Yourself) Principle
 Avoid duplicating code by using functions and modules. <br>
@@ -85,8 +75,6 @@ Extract common logic into reusable functions.
     price1 = 100 - (100 * 0.1)
     price2 = 200 - (200 * 0.2)
 
-<br>
-
 ## Handle Errors Gracefully
 Use try-catch or try-except blocks to handle errors. <br>
 Log errors properly instead of hiding them.
@@ -99,8 +87,6 @@ Log errors properly instead of hiding them.
 
 ### ❌ Bad:
     value = int(input("Enter a number: ")) # Crashes if input is invalid
-
-<br>
 
 ## Optimize Performance
 Avoid unnecessary loops and nested conditions. <br>
@@ -117,8 +103,6 @@ Cache results if needed (e.g., memoization in recursion).
     users = [("Alice", "Admin"), ("Bob", "User")]
     role = next((role for user, role in users if user == "Alice"), None)
     # O(n) linear time complexity (slower)
-
-<br>
 
 ## Write Unit Tests
 Always write unit tests to verify code correctness. <br>
@@ -138,8 +122,6 @@ Follow TDD (Test-Driven Development) when possible.
     if __name__ == '__main__':
         unittest.main()
 
-<br>
-
 ## Keep Your Code Modular & Maintainable
 Break large files into smaller modules. <br>
 Follow SOLID principles in Object-Oriented Programming. <br>
@@ -153,8 +135,6 @@ Use design patterns where applicable (Singleton, Factory, etc.).
 ### ❌ Bad:
 - utils.py with 1000 lines of code
 
-<br>
-
 ## Security Best Practices
 Never store passwords in plain text. <br>
 Use parameterized queries to prevent SQL injection. <br>
@@ -167,8 +147,6 @@ Sanitize user input to avoid XSS attacks.
 
 ### ❌ Bad:
     password = "mypassword" # Plain text, BAD!
-
-<br>
 
 ## Document Your Code
 Use README.md for project descriptions. <br>
@@ -186,9 +164,8 @@ Use docstrings (""" """ in Python, /** */ in JavaScript).
     """
 
 <br>
-<br>
 
-# Summary of Good Coding Practices
+# Summary Of Good Coding Practices
 
 | Practice                  | Benefit
 |---------------------------|--------
