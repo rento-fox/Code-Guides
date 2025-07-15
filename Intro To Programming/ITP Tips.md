@@ -12,8 +12,8 @@ Capitalize:
 
 Do not capitalize:
 - articles (a, an, the)
-- conjunctions (and, but, or)
-- prepositions (to, for, of, etc.)
+- conjunctions (for, and, nor, but, or, yet, so)
+- prepositions (to, for, of, with, in, on, by, at, about,)
 
 unless they’re the first or last word
 
