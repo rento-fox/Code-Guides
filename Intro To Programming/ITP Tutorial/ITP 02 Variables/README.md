@@ -390,7 +390,8 @@ We can use a variable in an if statement, as part of the condition, like this:
     <tr>
         <td>
 <pre><code>temperature = 25
-print('Temperature: ' + str(temperature) + '°C') <br>
+print('Temperature: ' + str(temperature) + '°C')
+<br>
 if temperature > 20:
     print('It is warm')
 else:
@@ -398,7 +399,8 @@ else:
         </td>
         <td>
 <pre><code>const temperature = 25;
-console.log('Temperature: ' + temperature + '°C'); <br>
+console.log('Temperature: ' + temperature + '°C');
+<br>
 if (temperature > 20) {
     console.log('It is warm');
 } else {
@@ -413,7 +415,8 @@ if (temperature > 20) {
     <tr>
         <td>
 <pre><code>int temperature = 25;
-System.out.println("Temperature: " + temperature + "°C"); <br>
+System.out.println("Temperature: " + temperature + "°C");
+<br>
 if (temperature > 20) {
     System.out.println("It is warm");
 } else {
@@ -422,7 +425,8 @@ if (temperature > 20) {
         </td>
         <td>
 <pre><code>int temperature = 25;
-cout << "Temperature: " + to_string(temperature) + "°C\\n"; <br>
+cout << "Temperature: " + to_string(temperature) + "°C\\n";
+<br>
 if (temperature > 20) {
     cout << "It is warm\\n";
 } else {
