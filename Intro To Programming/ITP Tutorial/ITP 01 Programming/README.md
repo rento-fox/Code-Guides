@@ -60,7 +60,12 @@ starting with either Python, or JavaScript as your first programming language.
 Since the concepts are the same in all programming languages, you can learn the concepts first in one language, <br>
 and then use the concepts you've learned in another programming language later.
 
-### [< Go Back](https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'ITP Tutorial') or [Continue >](https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 02 Variables')
+<br>
+
+### [< Previous][Previous] or [Next >][Next]
+
+[Previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'Intro To Programming'
+[Next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 02 Variables'
 
 <br>
 
