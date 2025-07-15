@@ -1,4 +1,4 @@
-# Common Programming Naming Conventions, <br> And Their Typical Use Cases (by ChatGPT)
+# Common Programming Naming Conventions, <br> and Their Typical Use Cases (by ChatGPT)
 
 ## Camel Case (camelCase)
 The first word starts with a lowercase letter, <br>

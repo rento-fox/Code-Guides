@@ -1,4 +1,4 @@
-# Coding Languages And Their Most Common Use Cases (by ChatGPT)
+# Coding Languages and Their Most Common Use Cases (by ChatGPT)
 
 ## General-Purpose Languages
 | Language     | Common Use Cases
@@ -104,7 +104,7 @@
 
 <br>
 
-# Coding Languages And Their Shortened Names And File Extensions
+# Coding Languages and Their Shortened Names and File Extensions
 
 | Language      | Short Name | File Extension(s)
 |---------------|------------|------------------

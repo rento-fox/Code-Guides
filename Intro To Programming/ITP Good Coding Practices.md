@@ -165,7 +165,7 @@ Use docstrings (""" """ in Python, /** */ in JavaScript).
 
 <br>
 
-# Summary Of Good Coding Practices
+# Summary of Good Coding Practices
 
 | Practice                  | Benefit
 |---------------------------|--------
