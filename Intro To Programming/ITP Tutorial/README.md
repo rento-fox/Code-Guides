@@ -1,11 +1,13 @@
 # Understanding the Concepts of Programming
 
 Many of the ideas in computer programming are common to most programming languages. <br>
-These ideas, or concepts, are explained one concept at a time, in a way that is easy to understand.
+These ideas, or concepts, are explained one concept <br>
+at a time, in a way that is easy to understand.
 
 ## What Are These Pages About?
 To understand programming, we need to understand the basic underlying concepts. <br>
-The following pages explain the basic programming concepts, using code examples, images, and animations.
+The following pages explain the basic programming concepts, <br>
+using code examples, images, and animations.
 
 ## Who is This For?
 These pages are for anyone who wants a clear explanation of one or more programming concepts. <br>
