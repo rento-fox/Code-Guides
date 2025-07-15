@@ -8,11 +8,13 @@ To master programming, you need to learn the core concepts first. <br>
 No matter the programming language, many of the concepts used are still the same.
 
 The first 5 core concepts you need to learn are:
-1. Variables
+1. [Variables][variables]
 2. If Statements
 3. Arrays
 4. Loops
 5. Functions
+
+[variables]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'Learn about Variables'
 
 It is recommended to learn these concepts in the order above. <br>
 To fully understand these concepts, you also need to have a basic understanding <br>
