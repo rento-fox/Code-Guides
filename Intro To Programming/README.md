@@ -1,6 +1,8 @@
 *Last Updated: 15.07.2025*
 --------------------------
 
+<br>
+
 ### [< Go Back][go-back] or [Start the Tutorial >][tutorial]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main 'Code-Guides'
