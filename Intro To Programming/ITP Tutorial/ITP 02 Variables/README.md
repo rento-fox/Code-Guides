@@ -1,8 +1,9 @@
 # Variables in Programming
 
-Variables are one of the most basic and essential concepts in programming, used to store values.
+Variables are one of the most basic and essential <br>
+concepts in programming, used to store values.
 
-## What is a Variable?
+## What Is a Variable?
 A variable has a name, and you can store something in it. <br>
 The image below shows how we can think of a variable named `favFruit`, <br>
 with the value `'apple'` stored inside it.
@@ -297,11 +298,12 @@ cout << a;</code></pre>
     </tr>
 </table>
 
-Incrementing a variable is a common operation in programming, and it's often used in loops. <br>
-It is so common in fact, that many programming languages have a shorthand for it, <br>
-like `++` in C/C++ and Java, or `+=` in Python.
+Incrementing a variable is a common operation in programming, <br>
+and it's often used in loops. It is so common in fact, that many programming languages <br>
+have a shorthand for it, like `++` in C/C++ and Java, or `+=` in Python.
 
-The code below shows how to increment a variable in different programming languages, using shorthand.
+The code below shows how to increment a variable <br>
+in different programming languages, using shorthand.
 
 <table>
     <tr>
