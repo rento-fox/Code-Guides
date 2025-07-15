@@ -21,9 +21,9 @@ you can move on to more advanced concepts.
 
 ## Programming Languages
 A programming language is how we write code, what keywords we use, <br>
-to tell the computer what to do. Different programming languages are used for different purposes, <br>
-like JavaScript is good for web development, Python is good for AI, <br>
-and C/C++ is good for programming microcontrollers.
+to tell the computer what to do. Different programming languages <br>
+are used for different purposes, like JavaScript is good for web development, <br>
+Python is good for AI, and C/C++ is good for programming microcontrollers.
 
 What we actually have to write to make use of for example variables, or functions, <br>
 is slightly different depending on the programming language, <br>
