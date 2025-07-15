@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     
-    // Creating a variable
+    // Creating a Variable
     string favAnimal = "turtles";
     cout << "I like " + favAnimal; // I like turtles
     cout << '\n'; // (newline)

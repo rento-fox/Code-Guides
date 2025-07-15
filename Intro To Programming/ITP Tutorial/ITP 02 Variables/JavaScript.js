@@ -1,6 +1,6 @@
 // JavaScript
 
-// Creating a variable
+// Creating a Variable
 const favAnimal = 'turtles';
 console.log('I like ' + favAnimal); // I like turtles
 

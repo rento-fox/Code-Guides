@@ -1,6 +1,6 @@
 # Python
 
-# Creating a variable
+# Creating a Variable
 favAnimal = 'turtles'
 print('I like ' + favAnimal) # I like turtles
 

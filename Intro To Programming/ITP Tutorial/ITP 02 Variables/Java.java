@@ -3,7 +3,7 @@
 public class Java {
     public static void main(String[] args) {
 
-        // Creating a variable
+        // Creating a Variable
         String favAnimal = "turtles";
         System.out.println("I like " + favAnimal); // I like turtles
 
