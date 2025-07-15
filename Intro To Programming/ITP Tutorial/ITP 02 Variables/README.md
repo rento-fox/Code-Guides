@@ -444,7 +444,7 @@ so instead of `myfavanimal`, we can use `myFavAnimal` or `my_fav_animal`.
 ### [< Previous][previous] / [Next >][next]
 
 [previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2001%20Programming 'ITP 01 Programming'
-[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 03 if Statements'
+[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2003%20If%20Statements 'ITP 03 If Statements'
 
 <br>
 
