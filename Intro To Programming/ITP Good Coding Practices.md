@@ -57,7 +57,7 @@ Use docstrings for functions and classes.
 
 ## Use Version Control (Git)
 Always use Git/GitHub/GitLab for version control. <br>
-Write clear commit messages (Fix login bug instead of Update code). <br>
+Write clear commit messages ('Fix login bug' instead of 'Update code'). <br>
 Use branches (feature/signup-page, fix/payment-bug).
 
 ## Follow DRY (Don't Repeat Yourself) Principle
