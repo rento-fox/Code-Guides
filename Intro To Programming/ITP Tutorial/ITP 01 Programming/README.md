@@ -3,7 +3,7 @@
 Programming is telling a computer what to do. <br>
 Being good at programming means you can make the computer do what you want.
 
-## Get Started With Programming
+## Get Started with Programming
 To master programming, you need to learn the core concepts first. <br>
 No matter the programming language, many of the concepts used are still the same.
 
