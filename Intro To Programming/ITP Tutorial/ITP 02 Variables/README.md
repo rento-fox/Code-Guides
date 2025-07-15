@@ -447,8 +447,11 @@ such as these:
 - A variable name cannot start with a number.
 - A variable name cannot be a reserved word like if, else, for, function etc.
 
-For readability, it is common to use **camelCase** or **snake_case** when naming variables, <br>
+For readability, it is common to use [**camelCase**][cc] or [**snake_case**][sc] when naming variables, <br>
 so instead of `myfavanimal`, we can use `myFavAnimal` or `my_fav_animal`.
+
+[cc]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Naming%20Conventions.md#camel-case-camelcase 'Learn about camelCase'
+[sc]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Naming%20Conventions.md#snake-case-snake_case 'Learn about snake_case'
 
 <br>
 
