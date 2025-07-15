@@ -213,7 +213,7 @@ cout << a / b;</code></pre>
     </tr>
 </table>
 
-Another way to add two variables, is to make an extra variable c <br>
+Another way to add two variables, is to make an extra variable `c` <br>
 to hold the sum, and present the answer with a text string:
 
 <table>
