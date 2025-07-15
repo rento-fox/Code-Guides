@@ -30,8 +30,8 @@ int main() {
 
     // Divide Two Number Variables
     int a4 = 12;
-	int b4 = 3;
-	cout << a4 / b4; // 4
+    int b4 = 3;
+    cout << a4 / b4; // 4
     cout << '\n'; // (newline)
 
     // Add Two Variables with Extra Variable c
@@ -63,7 +63,6 @@ int main() {
     // Using a Variable in an if Statement
     int temperature = 25;
     cout << "Temperature: " + to_string(temperature) + " C\n"; // Temperature: 25 C
-    
     if (temperature > 20) {
         cout << "It is warm\n"; // It is warm
     } else {

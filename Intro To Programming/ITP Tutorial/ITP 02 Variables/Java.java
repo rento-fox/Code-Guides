@@ -23,8 +23,8 @@ public class Java {
 
         // Divide Two Number Variables
         int a4 = 12;
-		int b4 = 3;
-		System.out.println(a4 / b4); // 4
+        int b4 = 3;
+        System.out.println(a4 / b4); // 4
 
         // Add Two Variables with Extra Variable c
         int a5 = 2;
@@ -45,8 +45,8 @@ public class Java {
 
         // Decrementing a Variable Using Shorthand
         int a8 = 5;
-		a8 -= 3;
-		System.out.println(a8); // 2
+        a8 -= 3;
+        System.out.println(a8); // 2
 
         // Using a Variable in an if Statement
         int temperature = 25;
