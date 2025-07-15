@@ -66,7 +66,7 @@ System.out.println("Liftoff!");</code></pre>
 <pre><code>for (int i = 10; i > 0; i--) {
     cout << to_string(i) + "\\n";
 }
-cout << "Liftoff!\\n</code></pre>
+cout << "Liftoff!\\n"</code></pre>
         </td>
     </tr>
 </table>
