@@ -1,84 +1,122 @@
-    Variables
-        Variables are one of the most basic and essential concepts in programming, used to store values.
+# Variables in Programming
 
-    What is a Variable?
-        A variable has a name, and you can store something in it.
-        The image below shows how we can think of a variable named favFruit, with the value 'apple' stored inside it.
-![alt text](image.png)
+Variables are one of the most basic and essential concepts in programming, used to store values.
+
+## What is a Variable?
+A variable has a name, and you can store something in it. <br>
+The image below shows how we can think of a variable named `favFruit`, <br>
+with the value `'apple'` stored inside it.
+
+![alt text](images/apple_image.png)
         
-        Below is how we can create the favFruit variable, using Python code:
-![alt text](image-1.png)
+Below is how we can create the `favFruit` variable, using Python code:
 
-        The code above creates a variable named favFruit,
-        and the equal sign = is used to store the value 'apple' inside the variable.
-        The reason for giving a variable a name is to be able to use it later in the code, and also to know what value it holds.
+![alt text](images/creating_variable.png)
 
-    Creating a Variable
-        Below is the code for creating the favAnimal variable in different programming languages.
-            Python:
-                favAnimal = 'turtles'
-            
-            JavaScript:
-                const favAnimal = 'turtles';
-            
-            Java:
-                String favAnimal = "turtles";
-            
-            C++:
-                string fav_animal = "turtles";
-        
-        Variables can hold different types of data, like whole numbers, decimal numbers, or text.
-        Note: When creating a variable in programming languages like C/C++ and Java,
-        we must tell the computer what type of data the variable holds.
-        To do that we need to write for example int in front of the variable name,
-        if the variable holds a whole number (integer).
+The code above creates a variable named `favFruit`, and the equal sign `=` is used to <br>
+store the value `'apple'` inside the variable. The reason for giving a variable a name <br>
+is to be able to use it later in the code, and also to know what value it holds.
 
-    Doing Things with Variables
-        Like we have just seen in the previous example, a value can be stored in a variable.
-        And if you run the example code above, you see how a variable is printed.
-        We can do other things with variables as well, like math operations, or put variables with text strings together.
+## Creating a Variable
+Below is the code for creating the `favAnimal` variable in different programming languages.
 
-    Add a Variable to a String
-        To use a variable in a string, you can add it to the string, like this:
-            Python:
-                a = 'Jane'
-                print('Hello, my name is ' + a) // Output: My name is Jane
+### Python
+    favAnimal = 'turtles'
 
-            JavaScript:
-                const a = 'Jane';
-                console.log('Hello, my name is ' + a); // Output: My name is Jane
+### JavaScript
+    const favAnimal = 'turtles';
 
-            Java:
-                String a = "Jane";
-                System.out.println("Hello, my name is " + a); // Output: My name is Jane
+### Java
+    String favAnimal = "turtles";
 
-            C++:
-                string a = "Jane";
-                cout << "Hello, my name is " + a; // Output: My name is Jane
+### C++
+    string fav_animal = "turtles";
 
-    Add Two String Variables Together
-        You can add two string variables together to form a sentence, using the + operator, like this:
-            Python:
-                a = 'Jane'
-                b = 'My name is '
-                print(b + a) // Output: My name is Jane
+Variables can hold different types of data, like whole numbers, decimal numbers, or text.
 
-            JavaScript:
-                const a = 'Jane';
-                const b = 'My name is ';
-                console.log(b + a); // Output: My name is Jane
+> **Note:** When creating a variable in programming languages like C/C++ and Java, <br>
+> we must tell the computer what type of data the variable holds. <br>
+> To do that we need to write for example `int` in front of the variable name, <br>
+> if the variable holds a whole number (integer).
 
-            Java:
-                String a = "Jane";
-                String b = "My name is ";
-                System.out.println(b + a); // Output: My name is Jane
+## Doing Things with Variables
+Like we have just seen in the previous example, a value can be stored in a variable. <br>
+And if you run the example code above, you see how a variable is printed. <br>
+We can do other things with variables as well, like math operations, or put variables with text strings together.
 
-            C++:
-                string a = "Jane";
-                string b = "My name is ";
-                cout << b + a; // Output: My name is Jane
+## Add a Variable to a String
+To use a variable in a string, you can add it to the string, like this:
 
-    Add Two Number Variables
+<table>
+    <tr>
+        <th>Python</th>
+        <th>JavaScript</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>a = 'Jane'
+print('Hello, my name is ' + a)</code></pre>
+        </td>
+        <td>
+<pre><code>const a = 'Jane';
+console.log('Hello, my name is ' + a);</code></pre>
+        </td>
+    </tr>
+    <tr>
+        <th>Java</th>
+        <th>C++</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>String a = "Jane";
+System.out.println("Hello, my name is " + a);</code></pre>
+        </td>
+        <td>
+<pre><code>string a = "Jane";
+cout << "Hello, my name is " + a;</code></pre>
+        </td>
+    </tr>
+</table>
+
+## Add Two String Variables Together
+You can add two string variables together to form a sentence, using the `+` operator, like this:
+
+<table>
+    <tr>
+        <th>Python</th>
+        <th>JavaScript</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>a = 'Jane'
+b = 'My name is '
+print(b + a)</code></pre>
+        </td>
+        <td>
+<pre><code>const a = 'Jane';
+const b = 'My name is ';
+console.log(b + a);</code></pre>
+        </td>
+    </tr>
+    <tr>
+        <th>Java</th>
+        <th>C++</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>String a = "Jane";
+String b = "My name is ";
+System.out.println(b + a);</code></pre>
+        </td>
+        <td>
+<pre><code>string a = "Jane";
+string b = "My name is ";
+cout << b + a;</code></pre>
+        </td>
+    </tr>
+</table>
+
+Add Two Number Variables
         If the variables are numeric values, you can perform mathematic operations on them, like adding two numbers:
             Python:
                 a = 2
