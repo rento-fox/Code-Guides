@@ -72,8 +72,8 @@ cout << "Liftoff!\\n"</code></pre>
 </table>
 
 If you haven't tried programming yet, it is recommended to try the concepts <br>
-described here yourself as you move along, starting with either Python, <br>
-or JavaScript as your first programming language.
+described here yourself as you move along, starting with either <br>
+Python, or JavaScript as your first programming language.
 
 Since the concepts are the same in all programming languages, <br>
 you can learn the concepts first in one language, and then use the concepts <br>
