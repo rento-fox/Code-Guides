@@ -47,7 +47,7 @@ We can do other things with variables as well, like math operations, or put vari
 ## Add a Variable to a String
 To use a variable in a string, you can add it to the string, like this:
 
-<table>
+<!-- <table>
     <tr>
         <th>Python</th>
         <th>JavaScript</th>
@@ -67,6 +67,33 @@ console.log('Hello, my name is ' + a);</code></pre>
         <th>C++</th>
     </tr>
     <tr>
+        <td>
+<pre><code>String a = "Jane";
+System.out.println("Hello, my name is " + a);</code></pre>
+        </td>
+        <td>
+<pre><code>string a = "Jane";
+cout << "Hello, my name is " + a;</code></pre>
+        </td>
+    </tr>
+</table> -->
+
+<table>
+    <tr>
+        <th>Python</th>
+        <th>JavaScript</th>
+        <th>Java</th>
+        <th>C++</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>a = 'Jane'
+print('Hello, my name is ' + a)</code></pre>
+        </td>
+        <td>
+<pre><code>const a = 'Jane';
+console.log('Hello, my name is ' + a);</code></pre>
+        </td>
         <td>
 <pre><code>String a = "Jane";
 System.out.println("Hello, my name is " + a);</code></pre>
