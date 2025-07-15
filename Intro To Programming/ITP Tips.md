@@ -3,6 +3,22 @@ Ctrl + Shift + L
 
 ---
 
+### Style for Headings
+Title Case (Most common for headings)
+
+Capitalize:
+- First and last words
+- All major words (nouns, verbs, adjectives, adverbs, pronouns)
+
+Do not capitalize:
+- articles (a, an, the)
+- conjunctions (and, but, or)
+- prepositions (to, for, of, etc.)
+
+unless they’re the first or last word
+
+---
+
 <br>
 
 ### [< Go Back][go-back]
