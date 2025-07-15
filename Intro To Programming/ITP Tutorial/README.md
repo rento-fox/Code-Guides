@@ -17,7 +17,7 @@ in all programming languages, they are just written a little differently.
 
 <br>
 
-### [< Go Back][go-back] or [Continue >][continue]
+### [< Go Back][go-back] / [Continue >][continue]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
 [continue]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2001%20Programming 'ITP 01 Programming'

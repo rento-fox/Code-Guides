@@ -62,10 +62,10 @@ and then use the concepts you've learned in another programming language later.
 
 <br>
 
-### [< Previous][Previous] or [Next >][Next]
+### [< Previous][previous] / [Next >][next]
 
-[Previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'Intro To Programming'
-[Next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 02 Variables'
+[previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'ITP Tutorial'
+[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 02 Variables'
 
 <br>
 
