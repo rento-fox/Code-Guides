@@ -1,4 +1,4 @@
-# Common Programming Naming Conventions, <br> and Their Typical Use Cases (by ChatGPT)
+# Common Programming Naming Conventions, <br> And Their Typical Use Cases (by ChatGPT)
 
 ## Camel Case (camelCase)
 The first word starts with a lowercase letter, <br>
@@ -9,8 +9,6 @@ There are no spaces or underscores.
 |------------------|---------------------------------|---------
 | JavaScript, C#, <br> Swift, Java | variables, function names, <br> method names, object properties | `userName`, `fetchData`, <br> `getUserInfo` |
 
-<br>
-
 ## Pascal Case (PascalCase)
 Similar to camel case, but the first word starts with an uppercase letter. <br>
 No spaces or underscores.
@@ -19,16 +17,12 @@ No spaces or underscores.
 |------------------|---------------------------------|---------
 | C#, TypeScript, <br> Java, C++ | class names, type names, <br> struct names | `PersonClass`, `UserProfile`, <br> `OrderDetails` |
 
-<br>
-
 ## Snake Case (snake_case)
 All letters are lowercase, and words are separated by underscores.
 
 | Common In        | Purpose                         | Examples
 |------------------|---------------------------------|---------
 | Ruby, PHP, <br> Python | variables, function names, <br> method names, object properties | `user_name`, `fetch_data`, <br> `get_user_info` |
-
-<br>
 
 ## Upper Snake Case (UPPER_SNAKE_CASE)
 Similar to snake_case, but all letters are uppercase.
@@ -37,16 +31,12 @@ Similar to snake_case, but all letters are uppercase.
 |------------------|---------------------------------|---------
 | C++, Java, <br> Python, C | constant variables, <br> macro definitions | `MAX_VALUE`, `PI_CONSTANT`, <br> `DEFAULT_TIMEOUT` |
 
-<br>
-
 ## Kebab Case (kebab-case)
 All letters are lowercase, and words are separated by hyphens (-).
 
 | Common In        | Purpose                         | Examples
 |------------------|---------------------------------|---------
 | CSS, URLs, <br> JavaScript (some libraries) | file names, URLs, <br> CSS classes | `user-profile`, `main-header`, <br> `default-theme`, `/api/get-user` |
-
-<br>
 
 ## Hungarian Notation
 A prefix is added to the variable name to indicate its type or purpose. <br>
@@ -56,8 +46,6 @@ A prefix is added to the variable name to indicate its type or purpose. <br>
 |------------------|---------------------------------|---------
 | C, C++, <br> older languages | Indicate the type <br> of a variable | `strName`, `intCount`, <br> `boolActive`, `floatTemperature` |
 
-<br>
-
 ## All Lowercase (alllowercase)
 All letters are lowercase with no underscores or spaces.
 
@@ -65,16 +53,12 @@ All letters are lowercase with no underscores or spaces.
 |------------------|---------------------------------|---------
 | Python, URLs <br> Shell scripts | Often used for file names and sometimes <br> for variable names in scripts or config files | `configfile`, `readme`, <br> `setupscript` |
 
-<br>
-
 ## Dot Notation (dot.notation)
 A naming convention where words are separated by periods (dots).
 
 | Common In        | Purpose                         | Examples
 |------------------|---------------------------------|---------
 | file paths, <br> object properties | Used to represent file paths <br> or access object properties/methods | `com.example.project`, <br> `user.profile.name` |
-
-<br>
 
 ## Self-descriptive Naming
 Naming variables/functions/classes based on their purpose.
