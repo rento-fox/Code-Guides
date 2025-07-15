@@ -437,8 +437,9 @@ if (temperature > 20) {
 </table>
 
 ## The Variable Name
-There are certain rules that applies when naming a variable. <br>
-Some rules are programming-languange-specific, others applie to all programming languages:
+There are certain rules that applie when naming a variable. <br>
+Some rules are programming-languange-specific, others applie to all programming languages, <br>
+such as these:
 
 - A variable name cannot contain spaces.
 - A variable name cannot start with a number.
