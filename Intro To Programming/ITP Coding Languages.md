@@ -1,4 +1,4 @@
-# Coding Languages and Their Most Common Use Cases (by ChatGPT)
+# Coding Languages And Their Most Common Use Cases (by ChatGPT)
 
 ## General-Purpose Languages
 | Language     | Common Use Cases
@@ -11,8 +11,6 @@
 | Rust         | Systems programming, security-focused apps, embedded systems, blockchain
 | Go (Golang)  | Cloud services, backend development, microservices
 
-<br>
-
 ## Web Development
 | Language       | Common Use Cases
 |----------------|-----------------
@@ -22,8 +20,6 @@
 | Ruby           | Web development (Ruby on Rails)
 | HTML & CSS     | Structuring and styling web pages
 | Dart           | Web and mobile development (Flutter)
-
-<br>
 
 ## Backend Development
 | Language     | Common Use Cases
@@ -35,8 +31,6 @@
 | PHP          | Web backend (WordPress, Laravel)
 | C#           | ASP.NET applications
 
-<br>
-
 ## Mobile App Development
 | Language   | Common Use Cases
 |------------|-----------------
@@ -45,8 +39,6 @@
 | Dart       | Cross-platform mobile apps (Flutter)
 | Java       | Android development
 | C#         | Cross-platform mobile development (Xamarin, Unity)
-
-<br>
 
 ## Game Development
 | Language     | Common Use Cases
@@ -57,8 +49,6 @@
 | Java         | Android games
 | JavaScript   | Web-based games (Three.js, Phaser)
 
-<br>
-
 ## Database & Big Data
 | Language   | Common Use Cases
 |------------|-----------------
@@ -66,8 +56,6 @@
 | Python     | Data processing, automation
 | R          | Statistical computing, data analysis
 | Scala      | Big data processing (Apache Spark)
-
-<br>
 
 ## Data Science & Machine Learning
 | Language   | Common Use Cases
@@ -77,16 +65,12 @@
 | Julia      | High-performance numerical computing, machine learning
 | MATLAB     | Engineering, numerical computing, simulations
 
-<br>
-
 ## Cybersecurity & Ethical Hacking
 | Language   | Common Use Cases
 |------------|-----------------
 | Python     | Security automation, penetration testing
 | C          | Reverse engineering, exploit development
 | Assembly   | Low-level security analysis
-
-<br>
 
 ## Embedded Systems & IoT
 | Language   | Common Use Cases
@@ -96,8 +80,6 @@
 | Rust       | Secure embedded systems
 | Python     | IoT (MicroPython)
 
-<br>
-
 ## DevOps & Cloud Computing
 | Language   | Common Use Cases
 |------------|-----------------
@@ -106,16 +88,12 @@
 | Shell      | Scripting (Bash), server automation, DevOps
 | Ruby       | Infrastructure as Code (Chef, Puppet)
 
-<br>
-
 ## Scientific Computing & Simulations
 | Language   | Common Use Cases
 |------------|-----------------
 | MATLAB     | Engineering, physics, numerical simulations
 | Julia      | High-performance computing
 | Fortran    | Scientific research, numerical computations
-
-<br>
 
 ## Blockchain & Smart Contracts
 | Language   | Common Use Cases
@@ -125,9 +103,8 @@
 | Go         | Blockchain systems (Hyperledger)
 
 <br>
-<br>
 
-# Coding Languages and Their Shortened Names and File Extensions
+# Coding Languages And Their Shortened Names And File Extensions
 
 | Language      | Short Name | File Extension(s)
 |---------------|------------|------------------
