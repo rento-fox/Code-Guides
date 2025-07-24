@@ -3,6 +3,9 @@
 # Intro To Programming
 
 ### Contents:
+- #### [ITP Tips][itp-tips]
+
+[itp-tips]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Tips.md 'ITP Tips.md'
 
 <br>
 
