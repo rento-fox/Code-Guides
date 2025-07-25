@@ -8,6 +8,21 @@
 
 ---
 
+### Title Case Style for Headings
+
+#### Capitalize:
+- First and last words
+- All major words (nouns, verbs, adjectives, adverbs, pronouns)
+
+#### Do not capitalize:
+- articles (a, an, the)
+- conjunctions (for, and, nor, but, or, yet, so)
+- prepositions (to, for, of, with, in, on, by, at, about)
+
+unless they’re the first or last word
+
+---
+
 <br>
 
 ### [< Go Back][go-back]
