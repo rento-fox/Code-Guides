@@ -2,6 +2,12 @@
 
 # Tips
 
+### How to Find All Instances of Highlighted Text<br>(in Visual Studio Code)
+
+`Shift` + `L`
+
+---
+
 <br>
 
 ### [< Go Back][go-back]
