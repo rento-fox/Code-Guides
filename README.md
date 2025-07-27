@@ -1,4 +1,4 @@
-# Rento's Code Guides
+# Code Guides
 
 This repository contains coding and programming guides, tutorials and references.<br>
 Most of the content in this repository is referenced from [W3Schools][w3schools].
