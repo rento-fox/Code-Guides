@@ -1,10 +1,13 @@
-*Last Updated: 25.07.2025*
+*Last Updated: 27.07.2025*
 
 # Intro To Programming
 
 ### Contents:
+- #### [ITP How to Run Files][itp-how-to-run-files]
 - #### [ITP Naming Conventions][itp-naming-conventions]
 - #### [ITP Tips][itp-tips]
+
+[itp-how-to-run-files]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20How%20to%20Run%20Files.md 'ITP How to Run Files.md'
 
 [itp-naming-conventions]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Naming%20Conventions.md 'ITP Naming Conventions.md'
 
