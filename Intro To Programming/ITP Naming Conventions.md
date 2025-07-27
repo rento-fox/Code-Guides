@@ -1,6 +1,8 @@
-*Last Updated: 25.07.2025*
+*Last Updated: 27.07.2025*
 
-# Common Programming Naming Conventions<br>and Their Typical Use Cases (by ChatGPT)
+# Common Programming Naming Conventions<br>and Their Typical Use Cases
+
+*(by ChatGPT, 2025)*
 
 ### Camel Case (camelCase)
 The first word starts with a lowercase letter,<br>
