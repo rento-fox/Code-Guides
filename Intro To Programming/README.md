@@ -9,21 +9,21 @@
 - #### [ITP Naming Conventions][itp-naming-conventions]
 - #### [ITP Tips][itp-tips]
 
-[itp-coding-languages]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Coding%20Languages.md 'ITP Coding Languages.md'
+[itp-coding-languages]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Coding%20Languages.md
 
-[itp-good-coding-practices]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Good%20Coding%20Practices.md 'ITP Good Coding Practices.md'
+[itp-good-coding-practices]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Good%20Coding%20Practices.md
 
-[itp-how-to-run-files]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20How%20to%20Run%20Files.md 'ITP How to Run Files.md'
+[itp-how-to-run-files]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20How%20to%20Run%20Files.md
 
-[itp-naming-conventions]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Naming%20Conventions.md 'ITP Naming Conventions.md'
+[itp-naming-conventions]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Naming%20Conventions.md
 
-[itp-tips]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Tips.md 'ITP Tips.md'
+[itp-tips]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Tips.md
 
 <br>
 
 ### [< Code Guides][code-guides]
 
-[code-guides]: https://github.com/rento-fox/Code-Guides 'Code-Guides'
+[code-guides]: https://github.com/rento-fox/Code-Guides
 
 <br>
 
