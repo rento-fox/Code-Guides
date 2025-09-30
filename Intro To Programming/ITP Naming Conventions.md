@@ -1,4 +1,10 @@
-*Last Updated: 27.07.2025*
+*Last Updated: 30.09.2025*
+
+#### [< Go Back][go-back]
+
+[go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
+
+<br>
 
 # Common Programming Naming Conventions<br>and Their Typical Use Cases
 
@@ -103,7 +109,7 @@ Naming variables/functions/classes based on their purpose.
 
 <br>
 
-### [< Go Back][go-back]
+#### [< Go Back][go-back]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
 
