@@ -28,7 +28,7 @@ It is recommended to learn these concepts in the order above.<br>
 To fully understand these concepts, you also need to have a basic understanding of data types, boolean logic, and operators.<br>
 After you have learned these core concepts, you can move on to more advanced concepts.
 
-### Programming Languages
+## Programming Languages
 A programming language is how we write code, what keywords we use, to tell the computer what to do.
 
 Different programming languages are used for different purposes, like JavaScript is good for web development,<br>
@@ -47,16 +47,19 @@ Just look at how a for loop counting down from 10 is written in Python, JavaScri
     </tr>
     <tr>
         <td>
-<pre><code>for i in range(10, 0, -1):
-    print(i)
-<br>
-print('Liftoff!')</code></pre>
+<pre><code>
+for i in range(10, 0, -1):
+    print(i)<br>
+print('Liftoff!')
+</code></pre>
         </td>
         <td>
-<pre><code>for (let i = 10; i > 0; i--) {
+<pre><code>
+for (let i = 10; i > 0; i--) {
     console.log(i);
 }
-console.log('Liftoff!');</code></pre>
+console.log('Liftoff!');
+</code></pre>
         </td>
     </tr>
     <tr>
@@ -65,16 +68,20 @@ console.log('Liftoff!');</code></pre>
     </tr>
     <tr>
         <td>
-<pre><code>for (int i = 10; i > 0; i--) {
+<pre><code>
+for (int i = 10; i > 0; i--) {
     System.out.println(i);
 }
-System.out.println("Liftoff!");</code></pre>
+System.out.println("Liftoff!");
+</code></pre>
         </td>
         <td>
-<pre><code>for (int i = 10; i > 0; i--) {
+<pre><code>
+for (int i = 10; i > 0; i--) {
     cout << to_string(i) + "\\n";
 }
-cout << "Liftoff!\\n"</code></pre>
+cout << "Liftoff!\\n
+</code></pre>
         </td>
     </tr>
 </table>
