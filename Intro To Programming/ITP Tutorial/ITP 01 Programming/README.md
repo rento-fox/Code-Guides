@@ -1,9 +1,9 @@
 *Last Updated: 23.10.2025*
 
-#### [< Previous][go-back] / [Next >][continue]
+#### [< Previous][previous] / [Next >][next]
 
-[go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'Intro'
-[continue]: h 'I'
+[previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'Intro'
+[next]: h 'I'
 
 <br>
 
@@ -90,10 +90,10 @@ and then use the concepts you've learned in another programming language later.
 
 <br>
 
-#### [< Previous][go-back] / [Next >][continue]
+#### [< Previous][previous] / [Next >][next]
 
-[go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'Intro'
-[continue]: h 'I'
+[previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial 'Intro'
+[next]: h 'I'
 
 <br>
 
