@@ -1,9 +1,9 @@
 *Last Updated: 23.10.2025*
 
-#### [< Go Back][go-back] / [Next >][continue]
+#### [< Go Back][go-back] / [Next >][next]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
-[continue]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'ITP 01 Programming'
+[next]: h 'I'
 
 <br>
 
@@ -29,10 +29,10 @@ The next page explains how to get started with programming.
 
 <br>
 
-#### [< Go Back][go-back] / [Next >][continue]
+#### [< Go Back][go-back] / [Next >][next]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
-[continue]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'ITP 01 Programming'
+[next]: h 'I'
 
 <br>
 
