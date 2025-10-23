@@ -343,7 +343,7 @@ print(a)
         </td>
         <td>
 <pre><code>let a = 2;
-a += 1;
+a ++ 1;
 console.log(a);
 </code></pre>
         </td>
@@ -355,13 +355,13 @@ console.log(a);
     <tr>
         <td>
 <pre><code>int a = 2;
-a += 1;
+a ++ 1;
 System.out.println(a);
 </code></pre>
         </td>
         <td>
 <pre><code>int a = 2;
-a += 1;
+a ++ 1;
 cout << a;
 </code></pre>
         </td>
