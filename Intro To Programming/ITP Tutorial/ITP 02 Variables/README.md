@@ -22,7 +22,7 @@ Below is how we can create the `favFruit` variable, using Python code.
 
 ![alt text](images/creating_variable.png)
 
-The code above creates a variable named favFruit, and the equal sign = is used to store the value 'apple' inside the variable.<br>
+The code above creates a variable named `favFruit`, and the equal sign `=` is used to store the value `'apple'` inside the variable.<br>
 The reason for giving a variable a name is to be able to use it later in the code, and also to know what value it holds.
 
 <br>
