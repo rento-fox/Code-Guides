@@ -48,7 +48,8 @@ Just look at how a for loop counting down from 10 is written in Python, JavaScri
     <tr>
         <td>
 <pre><code>for i in range(10, 0, -1):
-    print(i)<br>
+    print(i)
+<br>
 print('Liftoff!')
 </code></pre>
         </td>
