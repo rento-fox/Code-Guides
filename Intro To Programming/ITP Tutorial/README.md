@@ -3,7 +3,7 @@
 #### [< Go Back][go-back] / [Next >][next]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
-[next]: h 'I'
+[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2001%20Programming 'ITP 01 Programming'
 
 <br>
 
@@ -32,7 +32,7 @@ The next page explains how to get started with programming.
 #### [< Go Back][go-back] / [Next >][next]
 
 [go-back]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming 'Intro To Programming'
-[next]: h 'I'
+[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2001%20Programming 'ITP 01 Programming'
 
 <br>
 
