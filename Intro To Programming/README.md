@@ -9,11 +9,14 @@
 # Intro To Programming
 
 ### Contents:
+- #### [ITP Tutorial][itp-tutorial]
 - #### [ITP Coding Languages][itp-coding-languages]
 - #### [ITP Good Coding Practices][itp-good-coding-practices]
 - #### [ITP How to Run Files][itp-how-to-run-files]
 - #### [ITP Naming Conventions][itp-naming-conventions]
 - #### [ITP Tips][itp-tips]
+
+[itp-tutorial]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial
 
 [itp-coding-languages]: https://github.com/rento-fox/Code-Guides/blob/main/Intro%20To%20Programming/ITP%20Coding%20Languages.md
 
