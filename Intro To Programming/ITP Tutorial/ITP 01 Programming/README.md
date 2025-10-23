@@ -47,15 +47,13 @@ Just look at how a for loop counting down from 10 is written in Python, JavaScri
     </tr>
     <tr>
         <td>
-<pre><code>
-for i in range(10, 0, -1):
+<pre><code>for i in range(10, 0, -1):
     print(i)<br>
 print('Liftoff!')
 </code></pre>
         </td>
         <td>
-<pre><code>
-for (let i = 10; i > 0; i--) {
+<pre><code>for (let i = 10; i > 0; i--) {
     console.log(i);
 }
 console.log('Liftoff!');
@@ -68,16 +66,14 @@ console.log('Liftoff!');
     </tr>
     <tr>
         <td>
-<pre><code>
-for (int i = 10; i > 0; i--) {
+<pre><code>for (int i = 10; i > 0; i--) {
     System.out.println(i);
 }
 System.out.println("Liftoff!");
 </code></pre>
         </td>
         <td>
-<pre><code>
-for (int i = 10; i > 0; i--) {
+<pre><code>for (int i = 10; i > 0; i--) {
     cout << to_string(i) + "\\n";
 }
 cout << "Liftoff!\\n
