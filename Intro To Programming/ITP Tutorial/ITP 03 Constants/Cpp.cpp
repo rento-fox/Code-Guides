@@ -9,7 +9,7 @@ int main() {
 
     // Defining a Constant
     const double PI = 3.14159;
-    cout << " 1 | " + to_string(PI) + "\n"; // 3.141590
+    cout << " 1 | " << PI << "\n"; // 3.141590
 
     // Changing a Constant
     const double PI2 = 3.14159;
