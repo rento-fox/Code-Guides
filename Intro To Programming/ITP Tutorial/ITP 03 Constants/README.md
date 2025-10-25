@@ -61,7 +61,41 @@ Using constants makes your code easier to understand and maintain:
 Once a constant is assigned, trying to change it will usually<br>
 cause an error or be ignored, depending on the language.
 
-
+<table>
+    <tr>
+        <th>Python</th>
+        <th>JavaScript</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>PI = 3.14159
+PI = 3   # This works in Python, but it is not recommended
+print(PI)
+</code></pre>
+        </td>
+        <td>
+<pre><code>const PI = 3.14159;
+PI = 3;   // Error: Assignment to constant variable
+</code></pre>
+        </td>
+    </tr>
+    <tr>
+        <th>Java</th>
+        <th>C++</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>final double PI = 3.14159;
+PI = 3;   // Error: cannot assign a value to final variable
+</code></pre>
+        </td>
+        <td>
+<pre><code>const double PI = 3.14159;
+PI = 3;   // Error: assignment of read-only variable
+</code></pre>
+        </td>
+    </tr>
+</table>
 
 <br>
 
