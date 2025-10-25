@@ -12,6 +12,10 @@ public class Java {
         // Changing a Constant
         final double PI2 = 3.14159;
         // PI2 = 3;   // Error: cannot assign a value to final variable
+
+        // Constants in Practice
+        final int DAYS_IN_WEEK = 7;
+        System.out.println(" 2 | A week has " + DAYS_IN_WEEK + " days"); // A week has 7 days
     }
 }
 
