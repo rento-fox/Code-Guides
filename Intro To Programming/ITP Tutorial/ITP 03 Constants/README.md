@@ -101,7 +101,47 @@ PI = 3;   // Error: assignment of read-only variable
 The common practice is to write constant names in UPPERCASE<br>
 to show other programmers that the value should not change.
 
+## Constants in Practice
+Here are some common examples of constants:
 
+- PI = 3.14159 (The mathematical constant pi)
+- DAYS_IN_WEEK = 7
+- URL = "https://example.com"
+
+<table>
+    <tr>
+        <th>Python</th>
+        <th>JavaScript</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>DAYS_IN_WEEK = 7
+print("A week has", DAYS_IN_WEEK, "days")
+</code></pre>
+        </td>
+        <td>
+<pre><code>const DAYS_IN_WEEK = 7;
+console.log("A week has " + DAYS_IN_WEEK + " days");
+</code></pre>
+        </td>
+    </tr>
+    <tr>
+        <th>Java</th>
+        <th>C++</th>
+    </tr>
+    <tr>
+        <td>
+<pre><code>final int DAYS_IN_WEEK = 7;
+System.out.println("A week has " + DAYS_IN_WEEK + " days");
+</code></pre>
+        </td>
+        <td>
+<pre><code>const int DAYS_IN_WEEK = 7;
+cout << "A week has " << DAYS_IN_WEEK << " days";
+</code></pre>
+        </td>
+    </tr>
+</table>
 
 <br>
 
