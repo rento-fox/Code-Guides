@@ -3,7 +3,7 @@
 #### [< Previous][previous] / [Next >][next]
 
 [previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 02 Variables'
-[next]: h 'I'
+[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2004%20If%20Statements 'ITP 04 If Statements'
 
 <br>
 
@@ -148,7 +148,7 @@ cout << "A week has " << DAYS_IN_WEEK << " days";
 #### [< Previous][previous] / [Next >][next]
 
 [previous]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2002%20Variables 'ITP 02 Variables'
-[next]: h 'I'
+[next]: https://github.com/rento-fox/Code-Guides/tree/main/Intro%20To%20Programming/ITP%20Tutorial/ITP%2004%20If%20Statements 'ITP 04 If Statements'
 
 <br>
 
