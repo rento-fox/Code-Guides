@@ -1,4 +1,5 @@
 // JavaScript
+console.log('JavaScript')
 
 // Creating a Variable
 const favAnimal = 'turtles';

@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+    cout << "C++\n";
     
     // for loop in C++
     for (int i = 5; i > 0; i--) {

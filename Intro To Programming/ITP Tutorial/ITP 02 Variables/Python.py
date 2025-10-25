@@ -1,4 +1,5 @@
 # Python
+print('Python')
 
 # Creating a Variable
 favAnimal = 'turtles'

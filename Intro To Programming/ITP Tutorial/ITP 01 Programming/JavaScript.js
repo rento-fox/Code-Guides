@@ -1,4 +1,5 @@
 // JavaScript
+console.log('JavaScript')
 
 // for loop in JavaScript
 for (let i = 5; i > 0; i--) {

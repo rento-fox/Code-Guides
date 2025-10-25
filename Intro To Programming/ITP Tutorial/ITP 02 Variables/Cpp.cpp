@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+    cout << "C++\n";
     
     // Creating a Variable
     string favAnimal = "turtles";
