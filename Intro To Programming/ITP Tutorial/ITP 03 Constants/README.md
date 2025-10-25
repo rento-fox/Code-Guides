@@ -50,6 +50,17 @@ cout << PI;
     </tr>
 </table>
 
+## Why Use Constants?
+Using constants makes your code easier to understand and maintain:
+
+- Readability: Names like PI or DAYS_IN_WEEK explain what the number means.
+- Safety: Constants protect important values from being accidentally changed.
+- Easy updates: If you need to change a constant (like a tax rate), you only update it in one place.
+
+## Changing a Constant
+Once a constant is assigned, trying to change it will usually<br>
+cause an error or be ignored, depending on the language.
+
 
 
 <br>
