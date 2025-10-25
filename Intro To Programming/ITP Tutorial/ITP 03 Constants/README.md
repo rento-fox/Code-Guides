@@ -97,6 +97,12 @@ PI = 3;   // Error: assignment of read-only variable
     </tr>
 </table>
 
+> **Note:** In Python, there is no built-in way to make a variable constant.<br>
+The common practice is to write constant names in UPPERCASE<br>
+to show other programmers that the value should not change.
+
+
+
 <br>
 
 #### [< Previous][previous] / [Next >][next]
